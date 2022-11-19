@@ -1,0 +1,131 @@
+:root{
+    --green: #009933 ;
+    --darkblue: #123845;
+    --fontblue: #142D36;
+    --lightblue: #3992CC;
+    --lightgrey: #6D7578;
+    --pink: #FF3A44;
+    --purple: #845CA7;
+    --lightgreen: #2DA771;
+
+
+}
+*, *::before, *::after{
+    box-sizing: border-box !important;
+}
+body a, li{
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background: #F9FBFA !important;
+
+}
+
+nav{
+    background-color: transparent !important;
+}
+
+
+/* nav */
+.custom__nav-link{
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.2rem;        
+    color: hsla(0, 0%, 0%, 1) !important;
+}
+.custom__nav-link-1{
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.2rem; 
+    color: #FF3A44!important;
+}
+.btn-custom{
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.2rem; 
+    background-color: var(--darkblue) !important;
+    color: white !important;
+}
+
+/* hero section */
+
+.africa-img{
+    width: 80%;
+}
+
+.col-empty{
+    height: 300px; width: 320px; background-color: #EEEEEE;
+}
+
+/* footer */
+.subscribe{
+    background-color: var(--lightblue);
+    border-radius: 45px;
+    
+}
+
+
+.footer-border{
+    margin-top: 55px !important;
+    border-radius: 160px !important;
+    border: 2px solid black !important;
+    padding: 50px;
+    font-family: 'Avenir', sans-serif;
+    
+}
+footer li a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+footer li a:hover{
+    color: var(--purple);
+}
+.footer-heading{
+    color: black;
+    font-weight: 900;
+}
+.reach-out{
+    font-size: .8rem !important ;
+}
+@media (max-width:1400px){
+    .map{
+        width: 100%;
+        min-height: 400px;
+    }
+    .contact-hero-title{
+        max-width: 300px;
+        font-size: 3.5rem;
+    }
+    .contact-hero-body{
+        font-size: 1.5rem;
+    }
+    .map-address{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width:991px){
+    .map{
+        width: 100%;
+        min-height: 400px;
+    }
+    .contact-hero-section{
+        padding: 0 2rem;
+    }
+    .contact-hero-title{
+        max-width: 300px;
+        font-size: 2rem;
+    }
+    .contact-hero-body{
+        font-size: 1.1rem;
+    }
+    .map-address{
+        font-size: 1rem;
+    }
+   
+
+@media (max-width:375px){
+
+    .footer-border{
+        border-radius: 30px !important;
+    }
+    
+}

@@ -1,0 +1,289 @@
+:root{
+    --green: #009933 ;
+    --darkblue: #123845;
+    --fontblue: #142D36;
+    --lightblue: #3992CC;
+    --lightgrey: #6D7578;
+    --pink: #FF3A44;
+    --purple: #845CA7;
+    --lightgreen: #2DA771;
+
+
+}
+*, *::before, *::after{
+    box-sizing: border-box !important;
+}
+body a, li{
+    text-decoration: none;
+    list-style: none;
+}
+
+/* nav */
+.custom__nav-link{
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.2rem;        
+    color: hsla(0, 0%, 0%, 1) !important;
+}
+.custom__nav-link-1{
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.2rem; 
+    color: #FF3A44!important;
+}
+.btn-custom{
+    font-family: 'Avenir', sans-serif;
+    font-size: 1.2rem; 
+    background-color: var(--darkblue) !important;
+    color: white !important;
+}
+
+
+
+
+/* main */
+
+.hero-img{
+    background-image: url("../images/hero_rectangle.png");
+    width: 100% !important;
+    min-height: 450px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    border-radius: 20px !important;
+}
+.reuseable{
+    color: var(--green) !important;
+}
+.sustainability{
+    color: #E75E79;
+}
+.sustainable{
+    color: var(--purple);
+}
+.w-g{
+    color: #00A0FF;
+
+}
+.hero-text{
+    margin: 0 auto !important;
+    width: 100% !important;
+}
+.hero-text p{
+    width: 80% !important;
+}
+.scribbling{
+    position: absolute;
+    width: 25%;
+    top: 150px;
+    left: -90px;
+    
+}
+.recyle-section{
+    font-family: 'Avenir', sans-serif;
+}
+
+.doddle{
+    position: absolute;
+    width: 30%;
+    top: -60px;
+    right: 80px;
+    
+}
+.recycle-img{
+    width: 100%;
+}
+.recyle-text--heading{
+    font-weight: 900!important;
+    font-size: 2.5rem !important;
+}
+
+.recyle-text--desc{
+    font-size: 1.2rem !important;
+  
+}
+.our-company{
+    margin-top: 30px !important;
+    font-family: 'Avenir', sans-serif;
+    
+    /* overflow-x: scroll; */
+   
+}
+.company-title{
+    font-size: 2.5rem !important;
+
+}
+.table{
+    font-size: 1.2rem !important;
+    
+}
+.company-text{
+    font-size: 1.2rem !important;
+}
+
+.our-company::-webkit-scrollbar-thumb {
+    background: var(--lightblue) !important; 
+  }
+.our-company::-webkit-scrollbar {
+    background:  #e5e5e5 !important; 
+
+  }
+
+.sdg-img{
+    width: 100%;
+    z-index: 20;
+}
+.sdg-ellipse{
+    position: absolute;
+    width: 40%;
+    top: 110px;
+    left: 330px;
+    z-index: 0;
+}
+.sdg-section{
+    font-family: 'Avenir', sans-serif;
+    margin-top: 6rem !important;
+}
+.the-team{
+    font-family: 'Avenir', sans-serif;
+    margin-top: 10rem !important;
+}
+
+.team-border{
+   border: 2px solid var(--purple) !important;
+   border-radius: 80px !important;
+   padding: 1rem!important;
+   box-shadow: -7px 7px 2px 0px #dbc51f93;
+}
+
+.team-title{
+    background-color: #F6DB49;
+    border-radius: 25px !important;
+}
+.avatar{
+    width: 50%;
+}
+
+.join-team{
+    background-color: #F6DB49;
+    padding: 1rem 0 !important;
+    border-radius: 100px;
+    margin: 6rem 0px!important;
+}
+
+/* footer */
+.subscribe{
+    background-color: var(--lightblue);
+    border-radius: 45px;
+    
+}
+
+
+
+.footer-border{
+    margin-top: 55px !important;
+    border-radius: 160px !important;
+    border: 2px solid black !important;
+    padding: 50px;
+    font-family: 'Avenir', sans-serif;
+    
+}
+footer li a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: black;
+}
+footer li a:hover{
+    color: var(--purple);
+}
+.footer-heading{
+    color: black;
+    font-weight: 900;
+}
+.reach-out{
+    font-size: .8rem !important ;
+}
+@media (max-width:1400px){
+    .gg{
+        width: 50% !important;
+    }
+    .subscribe{
+        border-radius: 80px;
+    }
+}
+@media (max-width:991px){
+    .hero-text{
+        margin: 0 auto !important;
+        width: 100% !important;
+    }
+    .hero-text p{
+        width: 100% !important;
+    }
+    .s
+    .join-team{
+        border-radius: 120px;
+    }
+    .subscribe-text{
+        font-size: 1.5rem !important;
+    }
+    .subscribe{
+        border-radius: 80px;
+    }
+    .gg{
+        width: 70%;
+    } 
+    .team-border{
+        border-radius: 100px !important;
+       
+     }
+}
+@media (max-width:768px){
+    .avatar{
+        width: 100%;
+     }
+     .subscribe{
+        border-radius: 70px;
+    }
+    
+    .subscribe-text{
+        font-size: 1rem !important;
+    }
+    .join-team{
+        border-radius: 100px;
+    }
+}
+@media (max-width:576px){
+    .avatar{
+        width: 100%;
+     }
+     .gg{
+        width: 90% !important;
+        padding-left: .5rem !important;
+    }
+}
+
+@media (max-width:375px){
+    .custom-table{
+
+    }
+    .company-title{
+        font-size: 1.9rem !important;
+    }
+    .hero-text h1{
+       font-size: 2rem;
+       width: 100%;
+    }
+
+    .team-border{
+        border-radius: 40px !important;
+     }
+    .avatar{
+        width: 100%;
+     }
+     .join-team{
+        border-radius: 40px;
+        margin: 6rem 0px!important;
+    }
+    .footer-border{
+        border-radius: 40px !important;
+    }
+}
