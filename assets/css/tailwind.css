@@ -2243,6 +2243,10 @@ video {
     width: 40%;
   }
 
+  .sm\:w-seventyPercent {
+    width: 70%;
+  }
+
   .sm\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -2284,6 +2288,16 @@ video {
     padding-right: 5rem;
   }
 
+  .sm\:px-fivePercent {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .sm\:px-tenPercent {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
   .sm\:pl-5 {
     padding-left: 1.25rem;
   }
@@ -2315,6 +2329,11 @@ video {
 
   .sm\:text-xl {
     font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .sm\:text-lg {
+    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 
