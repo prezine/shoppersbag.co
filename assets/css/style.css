@@ -123,8 +123,11 @@ body a, li{
     left: 720px;
     z-index: 50;
 }
+.stats-section{
+    margin-top: 10rem !important;
+}
 .plastic-stats{
-    padding-top: 5rem;
+    /* padding-top: 5rem; */
 } 
 .text-group span{
     font-size: 1.3rem !important;
@@ -208,6 +211,7 @@ body a, li{
     background-color: #F5F5F5;
     border: 1px solid #E2E2E2;
 }
+
 /* .nav-link{
     font-family: "Avenir", sans-serif !important;
     font-size: 1.2rem !important;
@@ -479,18 +483,26 @@ footer li a:hover{
 .reach-out{
     font-size: .8rem !important ;
 }
-@media (max-width:1400px){
 
+/* @media (max-width:1400px){
+
+  
+} */
+@media(min-width:1200px){
     .sav_earn-img{
-        top: -190px;
+        top: 75px;
         left: 580px !important;
         width: 100%;
         z-index: 1;
 
     }
     .mission{
+        top: 220px;
         left: 650px !important;
         z-index: 10;
+    }
+    .stats-section{
+    margin-top: 10rem !important;
     }
   
     .shoppers{
@@ -525,11 +537,9 @@ footer li a:hover{
         width: 80px;
     }
    
-
     .partners-img-1{
         width: 80%;
         margin-top: 4rem;
-        /* margin-left: 1rem; */
     }
     .partners-img-3{
         width: 50%;
@@ -541,26 +551,83 @@ footer li a:hover{
         margin-top: 1.5rem;
     
     }
-    /* .elipse-img{
-        width: 70% !important;
-    } */
-    /* faq */
+
     .other-question{
         width: 50%;
         
     }
 
+
 }
-@media(max-width:1199px){
+
+@media(max-width:1200px){
     .sav_earn-img{
-       
-        display:  none !important;
-    
+        top: 75px;
+        left: 580px !important;
+        width: 100%;
+        z-index: 1;
+
     }
     .mission{
+        top: 220px;
+        left: 650px !important;
+        z-index: 10;
+    }
+    .stats-section{
+    margin-top: 10rem !important;
+    }
+  
+    .shoppers{
+        position: absolute;
+        top: 100px;
+        left: 150px;
+        width: 40%;
        
-        display: none !important;
-    } 
+      }
+
+    .try-out--text{
+        top: 60px;
+        left: 200px;
+    }
+
+    .ellipse{
+        width: 500px; 
+        height: 500px; 
+        background-color: #e5e5e5; 
+        border-radius: 50%;
+    }
+    .circle-left{
+        background-color: rgb(182, 182, 235); 
+        border-radius: 50%;
+        height: 80px; 
+        width: 80px;
+    }
+    .circle-right{
+        background-color: rgb(143 135 246); 
+        border-radius: 50%;
+        height: 80px; 
+        width: 80px;
+    }
+   
+    .partners-img-1{
+        width: 80%;
+        margin-top: 4rem;
+    }
+    .partners-img-3{
+        width: 50%;
+        margin-top: 1rem;
+    
+    }
+    .partners-img-4{
+        width: 80%;
+        margin-top: 1.5rem;
+    
+    }
+
+    .other-question{
+        width: 50%;
+        
+    }
 
 
 }
