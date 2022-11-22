@@ -9,3 +9,33 @@
 .shadow-green-text{
     text-shadow: -2px 3px 0px #FFFFFF, -3.5px 4px 0px #142D36;
 }
+
+#journey_section::-webkit-scrollbar{
+    width: 5px;
+    height: 15px;
+    box-shadow: 2px 2px 4px #ECECEC;
+    
+}
+#journey_section::-webkit-scrollbar:hover{
+    width: 10px;
+    transition: 10ms ease-in-out;
+    
+}
+#journey_section::-webkit-scrollbar-track{
+    background-color: #ECECEC;
+    /* box-shadow:  0px 2px 4px rgb(74, 75, 74); */
+    
+}
+#journey_section::-webkit-scrollbar-thumb{
+    background-color: #3992CC;
+    border-radius: 0px;
+    border-left: solid 5px #3992CC;
+    border-right: solid 5px transparent;
+    border-top: solid 2px transparent;
+    border-bottom: solid 2px transparent;
+    width: 10px;
+}
+#journey_section::-webkit-scrollbar-thumb:hover{
+    background-color: #41a4e6;
+    transition: 10ms ease-in-out;
+}
