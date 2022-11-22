@@ -222,6 +222,7 @@ module.exports = {
       maxWidth:{
         '160px': '10rem',
         '171px': '10.6875rem',
+        '250px': '15.625rem',
         '450px': '28.125rem',
         '500px': '31.25rem',
         '750px': '46.875rem',
@@ -241,6 +242,12 @@ module.exports = {
       minHeight: {
         '1/2': '50%',
         '160px': '10rem',
+        '350': '21.875rem',
+      },
+      minWidth: {
+        '1/2': '50%',
+        '160px': '10rem',
+        '250px': '15.625rem',
         '350': '21.875rem',
       }
     },
