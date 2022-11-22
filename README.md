@@ -1,2 +1,1 @@
-# shoppersbag.co
-A Website
+# shoppers-bag
