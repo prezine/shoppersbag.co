@@ -1021,6 +1021,18 @@ video {
   width: 31.25rem;
 }
 
+.w-48 {
+  width: 12rem;
+}
+
+.w-fiftyPercent {
+  width: 50%;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
 .min-w-full {
   min-width: 100%;
 }
