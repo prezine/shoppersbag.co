@@ -1,7 +1,7 @@
 <header class="">
     <nav class="relative w-full flex flex-row items-center h-24 lg:h-auto justify-between px-10 sm:px-16 lg:px-32 py-10">
     <div class="h-fit w-thirtyPercent">
-        <a href="./index.html"><img src="./assets/images/logos/logo.png" alt="logo" class="w-40 h-auto lg:w-48"></a>
+        <a href="./"><img src="./assets/images/logos/logo.png" alt="logo" class="w-40 h-auto lg:w-48"></a>
     </div>
     <div id="nav_menu" class="lg:bg-transparent space-y-10 lg:space-y-0 z-50 py-20 lg:py-0 -right-hundredPercent transition-all duration-500 ease-in-out shadow-md lg:shadow-none lg:static - bottom-1260 absolute hidden w-full flex-col lg:flex lg:flex-row gap-10 lg:gap-7 xl:gap-10 justify-between items-center lg:w-seventyPercent">
         <div class="font-avenirRegular flex flex-col lg:flex-row items-center gap-10 lg:gap-5 xl:gap-10">
