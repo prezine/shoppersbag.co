@@ -64,12 +64,16 @@ body a, li{
     color: #00A0FF;
 
 }
-.hero-text{
+.hero-text {
+    margin: 20px  0px !important;
+}
+.hero-text h1{
     margin: 0 auto !important;
     width: 100% !important;
 }
 .hero-text p{
-    width: 80% !important;
+    width: 100% !important;
+    margin-top: 10px !important;
 }
 .scribbling{
     position: absolute;
@@ -92,13 +96,17 @@ body a, li{
 .recycle-img{
     width: 100%;
 }
+.recyle-text{
+    color: var();
+}
 .recyle-text--heading{
     font-weight: 900!important;
-    font-size: 2.5rem !important;
+    font-size: 1rem !important;
 }
 
 .recyle-text--desc{
     font-size: 1.2rem !important;
+    text-align: justify !important;
   
 }
 .our-company{
@@ -109,7 +117,7 @@ body a, li{
    
 }
 .company-title{
-    font-size: 2.5rem !important;
+    font-size: 2rem !important;
 
 }
 .table{
@@ -118,12 +126,13 @@ body a, li{
 }
 .company-text{
     font-size: 1.2rem !important;
+    text-align: justify;
 }
 
-.our-company::-webkit-scrollbar-thumb {
+.custom-table::-webkit-scrollbar-thumb {
     background: var(--lightblue) !important; 
   }
-.our-company::-webkit-scrollbar {
+.custom-table::-webkit-scrollbar {
     background:  #e5e5e5 !important; 
 
   }
@@ -202,75 +211,33 @@ footer li a:hover{
 .reach-out{
     font-size: .8rem !important ;
 }
-@media (max-width:1400px){
-    .gg{
-        width: 50% !important;
-    }
-    .subscribe{
-        border-radius: 80px;
-    }
-}
-@media (max-width:991px){
+
+
+
+
+@media (min-width:375px){
+   
     .hero-text{
-        margin: 0 auto !important;
-        width: 100% !important;
+        margin-top: 5rem !important;
     }
     .hero-text p{
-        width: 100% !important;
-    }
-    .s
-    .join-team{
-        border-radius: 120px;
-    }
-    .subscribe-text{
-        font-size: 1.5rem !important;
-    }
-    .subscribe{
-        border-radius: 80px;
-    }
-    .gg{
-        width: 70%;
-    } 
-    .team-border{
-        border-radius: 100px !important;
-       
-     }
-}
-@media (max-width:768px){
-    .avatar{
-        width: 100%;
-     }
-     .subscribe{
-        border-radius: 70px;
-    }
-    
-    .subscribe-text{
-        font-size: 1rem !important;
-    }
-    .join-team{
-        border-radius: 100px;
-    }
-}
-@media (max-width:576px){
-    .avatar{
-        width: 100%;
-     }
-     .gg{
-        width: 90% !important;
-        padding-left: .5rem !important;
-    }
-}
-
-@media (max-width:375px){
-    .custom-table{
-
+       font-size: 1rem !important;
+       text-align: justify !important;
+       padding: 0 30px !important;
+      
     }
     .company-title{
-        font-size: 1.9rem !important;
+        font-size: 1.6rem !important;
     }
+    
     .hero-text h1{
        font-size: 2rem;
        width: 100%;
+    }
+    .scribbling{
+        width: 80%;
+        top: 400px !important;
+        left: 30px !important;
     }
 
     .team-border{
@@ -285,5 +252,183 @@ footer li a:hover{
     }
     .footer-border{
         border-radius: 40px !important;
+    }
+}
+
+@media (min-width:576px){
+    .hero-text{
+        padding: 30px 0 !important;
+    }
+    .hero-text h1{
+        width: 100% !important;
+        font-size: 2rem !important;
+        padding-left: 0rem !important;
+    }
+    .hero-text p{
+        width: 90% !important;
+        text-align: justify !important;
+        margin: 20px auto !important;
+        line-height: 35px !important;
+      
+    }
+    .company-title{
+        font-size: 1.5rem !important;
+    }
+    .company-text, .recyle-text--desc{
+        font-size: 1.1rem !important;
+    }
+    table tbody td  {
+        font-size: 1.1rem !important;
+        
+    }
+    .scribbling{
+        width: 55% !important;
+        top: 450px !important;
+        left: 90px !important;
+    }
+    .team-border{
+        border-radius: 120px !important;
+    }
+    .team-title{
+        font-size: 1.5rem !important;
+    }
+    
+    .team-desc{
+        font-size: 1.1rem !important;
+       }
+    .avatar{
+        width: 100%;
+     }
+     .gg{
+        width: 90% !important;
+        padding-left: .5rem !important;
+    }
+}
+
+@media (min-width:768px){
+    .hero-text h1{
+       font-size: 2.3rem !important;
+       width: 90% !important;
+      
+    }
+    .hero-text p{
+        width: 90% !important;
+        text-align: center !important;
+        margin: 20px auto !important;
+        line-height: 35px !important;
+        font-size: 1.5rem !important;
+      
+    }
+    .scribbling{
+        top: 300px !important;
+        left: 150px !important;
+        width: 60% !important;
+    }
+    .team-title{
+        font-size: 1.8rem !important;
+    }
+    .team-border{
+        border-radius: 120px !important;
+       
+     }
+    .avatar{
+        width: 100%;
+     }
+     .subscribe{
+        border-radius: 70px;
+    }
+    
+    .subscribe-text{
+        font-size: 1rem !important;
+    }
+    .join-team{
+        border-radius: 100px;
+    }
+}
+
+ @media (min-width:992px){
+    .hero-text h1{
+        width: 100% !important;
+        margin: 0 !important;
+        padding-left: 0rem !important;
+        text-align: center !important;
+    }
+   
+    .hero-text p{
+        width: 100% !important;
+    }
+    .scribbling{
+       width: 40% !important;
+       top: 350px !important;
+       left: 250px !important;
+    }
+    
+    .company-title{
+        text-align: start !important;
+    }
+    .team-title{
+        font-size: 1.8rem !important;
+    }
+    .team-desc{
+        font-size: 1.2rem !important;
+       }
+    .join-team{
+        border-radius: 120px;
+    }
+    .subscribe-text{
+        font-size: 1.5rem !important;
+    }
+    .subscribe{
+        border-radius: 80px;
+    }
+   
+    .team-border{
+        border-radius: 120px !important;
+       
+     }
+} 
+
+@media (min-width:1200px){
+
+    
+    .hero-text h1{
+        width: 90% !important;
+        margin: 80px auto !important;
+        padding-left: 2.8rem !important;
+         font-size: 3rem !important;
+
+    }
+    .hero-text p{
+        width: 100%;
+        padding-left: 2.8rem !important;
+        text-align: center !important;
+      
+    }
+    .scribbling{
+        position: absolute;
+        width: 25% !important;
+        top: 220px !important;
+        left: -90px !important;
+        
+    }
+
+    .company-title{
+        font-size: 1.8rem !important;
+    }
+    
+    .team-title{
+        font-size: 2.8rem !important;
+    }
+    .team-desc{
+     font-size: 1.2rem !important;
+    }
+    .team-border{
+        border-radius: 120px !important;
+    }
+    .subscribe{
+        border-radius: 80px;
+    }
+    .footer-border{
+        border-radius: 150px !important;
     }
 }
