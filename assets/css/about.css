@@ -168,8 +168,60 @@ body a, li{
     background-color: #F6DB49;
     border-radius: 25px !important;
 }
+.team-2-row{
+    padding: 0 25px;
+}
+
 .avatar{
-    width: 50%;
+    width: 150px;
+}
+.avatar-hover{
+    position: absolute !important;
+    width: 100% !important;
+    left: -60px;
+    top: 90px;
+}
+.card{
+    width: 100%;
+}
+.card-body{
+    font-family: 'avenire',sans-serif;                                                                                                                                  
+    width: 100%;
+    text-align: start;
+    font-size: .9rem;
+}
+
+.ceo-card{
+    position: absolute;
+    display: none;
+    left: 25%;
+    top:10%;
+}
+
+.displaying{
+    display: block!important;
+}
+
+#member-1:hover ~ .member-1{
+    display: block!important;
+}
+#member-2:hover ~ .member-2{
+    display: block!important;
+}
+#member-3:hover ~ .member-3{
+    display: block!important;
+}
+#member-4:hover ~ .member-4{
+    display: block!important;
+}
+#member-5:hover ~ .member-5{
+    display: block!important;
+}
+#member-6:hover ~ .member-6{
+    display: block!important;
+}
+#member-7:hover ~ .member-7{
+    display: block!important;
 }
 
 .join-team{
@@ -357,6 +409,7 @@ footer li a:hover{
     .hero-text p{
         width: 100% !important;
     }
+    
     .scribbling{
        width: 40% !important;
        top: 350px !important;
