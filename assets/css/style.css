@@ -103,6 +103,7 @@ body a, li{
     font-family: 'Avenir', sans-serif;
     font-size: 1.2rem !important;
     font-weight:200 !important;
+    width: 100%;
 
 }
 .btn-custom-2{
@@ -112,11 +113,14 @@ body a, li{
     /* margin-left: 1rem; */
 }
 
-.custom-col-4{
-    display: block;
-}
+/* .custom-col-4{
+   top: 0% !important;
+   left: 0% !important;
+   
+
+} */
 .mission{
- position: absolute;
+position: absolute;
  top: -15px;
  left: 680px;
 }
@@ -129,9 +133,7 @@ body a, li{
 .stats-section{
     margin-top: 10rem !important;
 }
-.plastic-stats{
-    /* padding-top: 5rem; */
-} 
+
 .text-group span{
     font-size: 1.3rem !important;
 }
@@ -183,28 +185,10 @@ body a, li{
 
 .brand-testimonial{
     width: 100%;
-    /* background-color: #F9FBFA; */
-    /* min-height: 300px; */
 }
 
 
-/* .partners-img-1{
-    width: 80%; 
-    margin-top: 4rem;
-    margin-left: 1rem;
-}
-.partners-img-3{
-    width: 50%;
-    margin-top: 4rem;
-    margin-left: 1rem;
 
-
-}
-.partners-img-4{
-    width: 80%;
-    margin-top: 4rem;
-
-} */
 .users-category-detail{
     display: none;
 }
@@ -230,6 +214,7 @@ body a, li{
 .image-container{
     position: relative;
 }
+
 
 .elipse-img{
     width: 100% !important;
@@ -293,6 +278,7 @@ body a, li{
     font-family: 'Avenir', sans-serif;
     font-size: 1.2rem !important;
     font-weight:200 !important;
+    
 }
 .why-section{
    background-color: #F6F4F9; 
@@ -462,422 +448,15 @@ footer li a:hover{
 
 
 
-@media(min-width:1200px){
-   
-.hero-text{
-    width: 100%;
-    padding-left: 10%!important;
-    padding-top: 15% !important;
 
-}
-.custom-col-4{
-    position: absolute !important;
-    top:0px !important;
-    left:15% !important;
-}
-.sav_earn-img{
-    position: absolute;
-    width: 40% !important;
-    
-}
-.mission{
-    position: absolute;
-    width: 30% !important;
-    top: 15% !important;
-}
-.partners-img{
-    width: 100%;
-    padding: 4rem 0;
-}
-    .stats-section{
-    margin-top: 10rem !important;
-    }
-    .btn-custom-2{
-        margin-left: -5%;
-    }
+
+
+
+@media (min-width: 375px) {
   
-    .shoppers{
-        position: absolute;
-        top: 100px;
-        left: 20% !important;
-        width: 40%;
-       
-      }
-
-    .try-out--text{
-        top: 60px;
-        left: 200px;
-    }
-
-    .ellipse{
-        width: 550px !important; 
-        height: 550px !important; 
-        background-color: #e5e5e5; 
-        border-radius: 50%;
-    }
-    .circle-left{
-        background-color: rgb(182, 182, 235); 
-        border-radius: 50%;
-        height: 80px; 
-        width: 80px;
-    }
-    .circle-right{
-        background-color: rgb(143 135 246); 
-        border-radius: 50%;
-        height: 80px; 
-        width: 80px;
-    }
-    .brand-testimonial{
-        /* height: 300px; */
-    }
-    .partners-img{
-        width: 80%;
-        padding: 4rem 0;
-    }
-   
-    /* .partners-img-1{
-        width: 80%;
-        margin-top: 4rem;
-    }
-    .partners-img-3{
-        width: 50%;
-        margin-top: 3rem;
-    
-    }
-    .partners-img-4{
-        width: 80%;
-        margin-top: 3rem;
-    
-    } */
-
-    .other-question{
-        width: 50%;
-        
-    }
-
-
-}
-@media(min-width:992px){
-.hero-text{
-    width: 100%;
-    padding-left: 10% !important;
-}
-.custom-col-4{
-    position: absolute !important;
-    top: 70% !important;
-    left:15% !important;
-}
-.sav_earn-img{
-    position: absolute;
-    width: 40% !important;
-    
-}
-.mission{
-    position: absolute;
-    width: 30% !important;
-    top: 15% !important;
-}
-
-.custom-flex{
-    display: flex !important;
-    flex-direction: row !important;
-    
-}
-.btn-custom-2 {
-    margin-top: 0px;
-    width: 40% !important;
-    
-}
-.btn-custom-1{
-    width: 20% !important;
-    padding: none !important;
-}
-
-.btn-earn{
-    width: 100% !important;
-    background-color: var(--lightblue) !important;
-    font-family: 'Avenir', sans-serif;
-    font-size: 1.2rem !important;
-    font-weight:200 !important;
-}
-
-
-.partners-img{
-    width: 80%;
-    padding: 4rem 0;
-}
-.shoppers{
-    position: absolute;
-    top: 80px;
-    left: 18%  !important;
-    width: 40% !important;
-        
-        }
-.ellipse{
-    width: 500px; 
-    height: 500px; 
-}
-/* .ellipse:last-of-type{
-    margin-top: -100px !important;
-
-} */
-.circle-left{
-    display: block;
-    top: 260px;
-    left: 120px;
-    
-    }
-    .circle-right{
-    display: block;
-    top: 260px;
-    left: 225px;
-}
-.shoppers{
-    position: absolute;
-    top: 50px;
-    left: 100px;
-    width: 50%;
-}
-     
-.why-desc{
-    font-family: 'Avenir', sans-serif;
-    font-weight: 100;
-    font-size: 1.2rem;
-    width: 100%;
-}
-
-   
-    .apple{
-        top: 210px;
-        left: 120px;
-       
-      }
-
-      .google{
-        top: 210px;
-        left: 250px;
-       
-      }
-
-      .scribbling{
-        width: 60%;
-        top: 110px;
-        left: -28px;
-        
-    }
-
-    .img-text{
-        top: 400px;
-        left: 60px;
-        
-    }
-    .appstore-btn{
-        width:20%;
-    }
-
-    /* footer */
-
-    .subscribe{
-        border-radius: 80px;
-    }
-    
-    .footer-border{
-        border-radius: 160px !important;
-    }
-
-    /* faq */
-    .other-question{
-        width: 80%;
-        
-    }
-
-}
-
-
-@media (min-width: 768px) {
-
-    .hero-text{
-        width: 100%;
-        /* padding-left: 10%!important; */
-        padding-top: 15% !important;
-
-    }
-    .custom-col-4{
-        display: block;
-        top: 500px;
-        left:-240px;
-    }
-    .sav_earn-img{
-        top: -200px;
-        left: 370px !important;
-        width: 100%;
-        z-index: 5;
-    }
-    .mission{
-        top: -40px;
-        left: 420px !important;
-        z-index: 10;
-        width: 80%;
-    } 
-   
-    .scribbling-img{
-        position:absolute;
-        top:-220px;
-        left: 35%;
-        width:55%;
-    }
-    .btn-custom-1{
-        width: 0%;
-    }
-    .btn-custom-2 {
-        margin-top: 1rem;
-        width: 0%;
-        border: none !important;
-        border-radius: 25px !important; 
-    }
-    .btn-earn{
-        width: 100% !important;
-        background-color: var(--lightblue) !important;
-        font-family: 'Avenir', sans-serif;
-        font-size: 1.2rem !important;
-        font-weight:200 !important;
-    }
-    .elipse-img{
-        width: 80% !important;
-        padding: 0 1rem;
-      }
-      .ellipse{
-        display:block;
-        width: 350px; 
-        height: 350px; 
-    }
-     
-    .get-app{
-        margin-top: 3rem !important;
-    }
-    
-    .store{
-        width: 70%;
-    }
-            
-    .shoppers{
-        position: absolute;
-        top: 80px;
-        left: 25%;
-        width: 50%;
-            
-            }
-    .apple{
-        top: 170px;
-        left: 90px;
-        width: 20%;
-        
-        }
-    .google{
-        top: 170px;
-        left: 220px;
-        width: 20%;
-    }
-    .circle-left{
-        display: none;
-        top: 260px;
-        left: 120px;
-        
-        }
-        .circle-right{
-        display: none;
-        top: 260px;
-        left: 225px;
-    }
-
-    .img-text{
-        position: absolute;
-        top: 385px;
-        left: 35px;
-        text-align: center;
-        
-    }
-    .try-out--text{
-        top: 60px;
-        left: 0px;
-        right: 20px;
-    }
-    
-    .subscribe{
-        border-radius: 100px;
-        
-    }
-        /* faq */
-    .other-question{
-    width: 50%;
-    
-}
-  
-}
-
-@media (min-width: 576px){ 
-  
- 
-    /* .custom-col-4{
-        display: none;
-    } */
-    .hero-text{
-        width: 100%;
-        line-height: 50px !important;
-        padding-top: 150px !important;
-    }
-    .hero-btn{
-        margin-top: 100px;
-        width: 100%;
-    }
-    
-    .btn-custom-2 {
-        margin-top: 1rem;
-        width: 80%;
-        border: none !important;
-        border-radius: none !important;
-    }
-    .btn-custom-1{
-        width: 80%;
-    }
-    .btn-earn{
-        width: 100% !important;
-        background-color: var(--lightblue) !important;
-        font-family: 'Avenir', sans-serif;
-        font-size: 1.2rem !important;
-        font-weight:200 !important;
-    }
-    .img-text{
-        top:350px;
-        left: 3px;
-        width: 80%;
-        margin-bottom: 10px;
-        
-    }
-    .ellipse{
-        display: block !important;
-    }
-     /* faq */
-     .other-question{
-        width: 80%;
-        
-    }
-}
-        
-@media (max-width: 375px) {
-    /* .btn-custom-2 {
-        margin-top: 1rem;
-        width: 0%;
-        border: none;
-        border-radius: 25px !important; 
-    } */
-
-/* .cust-logo{
-    width: 60%;
-} */
-.custom-col-4{
+/* .custom-col-4{
     display: none;
-}
+} */
 .mission{
     position: absolute;
     top: 40px;
@@ -971,4 +550,403 @@ footer li a:hover{
         width: 80%;
         
     }
+}
+
+@media (min-width: 576px){ 
+  
+ 
+    /* .custom-col-4{
+        display: none;
+    } */
+   
+    .hero-text{
+        width: 100%;
+        line-height: 50px !important;
+        padding-top: 150px !important;
+    }
+    .hero-btn{
+        margin-top: 100px;
+        width: 100%;
+    }
+    
+    .btn-custom-2 {
+        margin-top: 1rem;
+        width: 80%;
+        border: none !important;
+        border-radius: none !important;
+    }
+    .btn-custom-1{
+        width: 100%;
+    }
+    .btn-earn{
+        width: 100% !important;
+        background-color: var(--lightblue) !important;
+        font-family: 'Avenir', sans-serif;
+        font-size: 1.2rem !important;
+        font-weight:200 !important;
+    }
+    .scribbling-img{
+        position:absolute;
+        top:-150px;
+        left: 45%;
+        width:48%;
+    }
+    .img-text{
+        top:350px;
+        left: 3px;
+        width: 80%;
+        margin-bottom: 10px;
+        
+    }
+    .ellipse{
+        display: none !important;
+        
+    }
+    .shoppers{
+        display: none !important;
+    }
+     /* faq */
+     .other-question{
+        width: 80%;
+        
+    }
+}
+
+@media (min-width: 768px) {
+
+    .hero-text{
+        width: 100%;
+        /* padding-left: 10%!important; */
+        padding-top: 15% !important;
+
+    }
+    .custom-col-4{
+        display: block !important;
+        top: 500px;
+        left:-240px;
+    }
+    
+    
+    .scribbling-img{
+        position:absolute;
+        top:-220px;
+        left: 35%;
+        width:55%;
+    }
+    .shoppers{
+
+        position: absolute;
+        top: 90px !important;
+        left:32%  !important;
+        width: 40% !important;
+            
+    }
+    
+    .ellipse{
+        display: block !important;
+        width: 500px; 
+        height: 500px; 
+    }
+    
+   
+    .btn-custom-1{
+        width: 100% !important;
+    }
+    .btn-custom-2 {
+        margin-top: 1rem;
+        width: 50%;
+        border: none !important;
+        border-radius: 25px !important; 
+    }
+    .btn-earn{
+        width: 40% !important;
+        background-color: var(--lightblue) !important;
+        font-family: 'Avenir', sans-serif;
+        font-size: 1.2rem !important;
+        font-weight:200 !important;
+    }
+    .elipse-img{
+        width: 80% !important;
+        padding: 0 1rem;
+        }
+        .ellipse{
+        display:block;
+        width: 350px; 
+        height: 350px; 
+    }
+        
+    .get-app{
+        margin-top: 3rem !important;
+    }
+    
+    .store{
+        width: 70%;
+    }
+            
+    .shoppers{
+        position: absolute;
+        top: 80px;
+        left: 25%;
+        width: 50%;
+            
+            }
+    .apple{
+        top: 170px;
+        left: 90px;
+        width: 20%;
+        
+        }
+    .google{
+        top: 170px;
+        left: 220px;
+        width: 20%;
+    }
+    .circle-left{
+        display: none;
+        top: 260px;
+        left: 120px;
+        
+        }
+        .circle-right{
+        display: none;
+        top: 260px;
+        left: 225px;
+    }
+
+    .img-text{
+        position: absolute;
+        top: 385px;
+        left: 35px;
+        text-align: center;
+        
+    }
+    .try-out--text{
+        top: 60px;
+        left: 0px;
+        right: 20px;
+    }
+    
+    .subscribe{
+        border-radius: 100px;
+        
+    }
+        /* faq */
+    .other-question{
+    width: 50%;
+    
+}
+    
+}
+
+@media(min-width:992px){
+    .hero-text{
+        width: 100%;
+        padding-left: 10% !important;
+    }
+   
+   
+    
+    .btn-custom-2 {
+        margin-top: 0px;
+        width: 40% !important;
+        
+    }
+    .btn-custom-1{
+        width: 100% !important;
+        padding: none !important;
+    }
+    
+    .btn-earn{
+        width: 30% !important;
+        background-color: var(--lightblue) !important;
+        font-family: 'Avenir', sans-serif;
+        font-size: 1.2rem !important;
+        font-weight:200 !important;
+    }
+    
+    
+    .partners-img{
+        width: 80%;
+        padding: 4rem 0;
+    }
+    .shoppers{
+        position: absolute;
+        top: 80px;
+        left:22%  !important;
+        width: 40% !important;
+            
+    }
+    
+    .ellipse{
+        width: 400px !important; 
+        height: 400px !important; 
+    }
+    
+    .circle-left{
+        display: none;
+        top: 260px;
+        left: 120px;
+        
+        }
+        .circle-right{
+        display: none;
+        top: 260px;
+        left: 225px;
+    }
+    
+            
+    .why-desc{
+        font-family: 'Avenir', sans-serif;
+        font-weight: 100;
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    
+    
+    .apple{
+        top: 210px;
+        left: 120px;
+        
+        }
+    
+        .google{
+        top: 210px;
+        left: 250px;
+        
+        }
+    
+        .scribbling{
+        width: 60%;
+        top: 110px;
+        left: -28px;
+        
+    }
+    
+    .img-text{
+        top: 400px;
+        left: 60px;
+        
+    }
+    .appstore-btn{
+        width:20%;
+    }
+    
+    /* footer */
+    
+    .subscribe{
+        border-radius: 80px;
+    }
+    
+    .footer-border{
+        border-radius: 160px !important;
+    }
+    
+    /* faq */
+    .other-question{
+        width: 80%;
+        
+    }
+    
+}
+
+@media(min-width:1200px){
+   
+    .hero-text{
+        width: 100%;
+        padding-left: 10%!important;
+        padding-top: 15% !important;
+    
+    }
+   
+    .sav_earn-img{
+        display: block;
+        position: absolute;
+        width: 50% !important;
+        top: 30% !important;
+        left: 560px !important;
+        }
+    .mission{
+        display: block;
+        position: absolute;
+        width: 30% !important;
+        top: 90% !important;
+        left: 680px !important ;
+        z-index: 50;
+    }
+    
+    .partners-img{
+        width: 100%;
+        padding: 4rem 0;
+    }
+    .stats-section{
+    margin-top: 10rem !important;
+    }
+    .btn-custom-2{
+        margin-left: -5%;
+    }
+    .btn-custom-1{
+        width: 100% !important;
+       
+    }
+    
+    .btn-earn{
+        width: 30% !important;
+        background-color: var(--lightblue) !important;
+        font-family: 'Avenir', sans-serif;
+        font-size: 1.2rem !important;
+        font-weight:200 !important;
+    }
+    
+    .shoppers{
+        position: absolute !important;
+        top: 120px !important;
+        left: 30%  !important;
+        width: 40% !important;
+            
+    }
+    .store{
+        width: 100% !important;
+    }
+ 
+    .get-app{
+        padding-top: 65%;
+        z-index: 500;
+        padding-right:9%;
+    }
+ 
+    
+    .try-out--text{
+        top: 60px;
+        left: 200px;
+    }
+    
+    .ellipse{
+        width: 550px !important; 
+        height: 550px !important; 
+        background-color: #e5e5e5; 
+        border-radius: 50%;
+    }
+    .circle-left{
+        display: none !important;
+        top: 70% !important;
+        left: 15%;
+    }
+    .circle-right{
+        display: none !important;
+        top: 70% !important;
+        left: 15%;
+    }
+    
+    .partners-img{
+        width: 80%;
+        padding: 4rem 0;
+    }
+    
+    
+        .other-question{
+            width: 50%;
+            
+        }
+    
+    
 }
