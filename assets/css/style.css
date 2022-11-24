@@ -219,18 +219,6 @@ body a, li{
     border: 1px solid #E2E2E2;
 }
 
-/* .nav-link{
-    font-family: "Avenir", sans-serif !important;
-    font-size: 1.2rem !important;
-    color: var(--fontblue) !important;
-    background-color: #F5F5F5 !important;
-    border: 1px solid #E2E2E2 !important;
-}
-.nav-link:hover{
-    background-color: var(--lightgreen) !important;
-    border-color: var(--green) !;
-    color: white !important;
-} */
 
 .custom-list:hover{
     background-color: var(--lightgreen);
@@ -246,16 +234,7 @@ body a, li{
 .elipse-img{
     width: 100% !important;
 }
-/* .download-icon{
-    position: absolute;
-    top: 10px;
-    left: 80px;
-    right: -40px;
-    width: 65%;
-    z-index: 10;
-    display: none;
 
-} */
 .try-out{
     /* margin-right: 1rem 3rem; */
     background-image: url('../images/hero_rectangle.png');
@@ -482,117 +461,45 @@ footer li a:hover{
 }
 
 
-/* @media(min-width:1400px){
-    .hero-text{
-        margin-top: 50px !important;
-    }
-    .sav_earn-img{
-        top: 75px;
-        left: 580px !important;
-        width: 100%;
-        z-index: 1;
-
-    }
-    .mission{
-        top: 220px;
-        left: 650px !important;
-        z-index: 10;
-    }
-    .stats-section{
-    margin-top: 10rem !important;
-    }
-  
-    .shoppers{
-        position: absolute;
-        top: 100px;
-        left: 150px;
-        width: 40%;
-       
-      }
-
-    .try-out--text{
-        top: 60px;
-        left: 200px;
-    }
-
-    .ellipse{
-        width: 500px; 
-        height: 500px; 
-        background-color: #e5e5e5; 
-        border-radius: 50%;
-    }
-    .circle-left{
-        background-color: rgb(182, 182, 235); 
-        border-radius: 50%;
-        height: 80px; 
-        width: 80px;
-    }
-    .circle-right{
-        background-color: rgb(143 135 246); 
-        border-radius: 50%;
-        height: 80px; 
-        width: 80px;
-    }
-   
-    .partners-img-1{
-        width: 80%;
-        margin-top: 4rem;
-    }
-    .partners-img-3{
-        width: 50%;
-        margin-top: 1rem;
-    
-    }
-    .partners-img-4{
-        width: 80%;
-        margin-top: 1.5rem;
-    
-    }
-
-    .other-question{
-        width: 50%;
-        
-    }
-
-
-} */
 
 @media(min-width:1200px){
    
-    .hero-text{
-        width: 100%;
-        padding-left: 10%!important;
-        padding-top: 15% !important;
+.hero-text{
+    width: 100%;
+    padding-left: 10%!important;
+    padding-top: 15% !important;
 
-    }
-    .custom-col-4{
-        top: 140px !important;
-    }
-    .sav_earn-img{
-        top: -30px !important;
-        left: 450px !important;
-        width: 100%;
-        z-index: 1;
-        
-
-    }
-    .mission{
-        top: 300px;
-        left: 650px !important;
-        z-index: 10;
-        width: 50%;
-    }
+}
+.custom-col-4{
+    position: absolute !important;
+    top:0px !important;
+    left:15% !important;
+}
+.sav_earn-img{
+    position: absolute;
+    width: 40% !important;
+    
+}
+.mission{
+    position: absolute;
+    width: 30% !important;
+    top: 15% !important;
+}
+.partners-img{
+    width: 100%;
+    padding: 4rem 0;
+}
     .stats-section{
     margin-top: 10rem !important;
     }
     .btn-custom-2{
-        margin-left: 5%;
+        margin-left: -5%;
     }
   
     .shoppers{
         position: absolute;
         top: 100px;
-        left: 150px;
+        left: 20% !important;
         width: 40%;
        
       }
@@ -603,8 +510,8 @@ footer li a:hover{
     }
 
     .ellipse{
-        width: 500px; 
-        height: 500px; 
+        width: 550px !important; 
+        height: 550px !important; 
         background-color: #e5e5e5; 
         border-radius: 50%;
     }
@@ -656,17 +563,21 @@ footer li a:hover{
     padding-left: 10% !important;
 }
 .custom-col-4{
-    display: none !important;
     position: absolute !important;
-    top: 0px;
-    left:0px;
+    top: 70% !important;
+    left:15% !important;
 }
 .sav_earn-img{
-    display: block;
+    position: absolute;
+    width: 40% !important;
+    
 }
 .mission{
-    display: block;
+    position: absolute;
+    width: 30% !important;
+    top: 15% !important;
 }
+
 .custom-flex{
     display: flex !important;
     flex-direction: row !important;
