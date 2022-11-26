@@ -101,6 +101,10 @@ footer li a:hover{
     .map-address{
         font-size: 1.2rem;
     }
+    
+    .footer-border{
+        border-radius: 130px !important;
+    }
 }
 @media (max-width:991px){
     .map{

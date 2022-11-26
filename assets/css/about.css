@@ -41,15 +41,11 @@ body a, li{
 
 /* main */
 
-.hero-img{
-    background-image: url("../images/hero_rectangle.png");
+.about-hero{
+    background-color: var(--darkblue);
     width: 100% !important;
-    min-height: 450px !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-    border-radius: 20px !important;
+    min-height:350px !important;
+    border-radius: 40px !important;
 }
 .reuseable{
     color: var(--green) !important;
@@ -73,7 +69,7 @@ body a, li{
 }
 .hero-text p{
     width: 100% !important;
-    margin-top: 10px !important;
+    margin-top: 0px !important;
 }
 .scribbling{
     position: absolute;
@@ -106,7 +102,7 @@ body a, li{
 
 .recyle-text--desc{
     font-size: 1.2rem !important;
-    text-align: justify !important;
+    text-align: start !important;
   
 }
 .our-company{
@@ -173,7 +169,8 @@ body a, li{
 }
 
 .avatar{
-    width: 150px;
+    width:50%;
+    
 }
 .avatar-hover{
     position: absolute !important;
@@ -183,6 +180,7 @@ body a, li{
 }
 .card{
     width: 100%;
+    z-index: 400;
 }
 .card-body{
     font-family: 'avenire',sans-serif;                                                                                                                                  
@@ -198,12 +196,11 @@ body a, li{
     top:10%;
 }
 
-.displaying{
-    display: block!important;
-}
+
 
 #member-1:hover ~ .member-1{
     display: block!important;
+    
 }
 #member-2:hover ~ .member-2{
     display: block!important;
@@ -270,12 +267,14 @@ footer li a:hover{
 @media (min-width:375px){
    
     .hero-text{
-        margin-top: 5rem !important;
+        margin: 60px auto !important;
+        
     }
     .hero-text p{
-       font-size: 1rem !important;
-       text-align: justify !important;
-       padding: 0 30px !important;
+       font-size: 1.2rem !important;
+       text-align: center !important;
+        margin: 20px auto !important;
+        padding: 0 4px !important;
       
     }
     .company-title{
@@ -283,8 +282,8 @@ footer li a:hover{
     }
     
     .hero-text h1{
-       font-size: 2rem;
-       width: 100%;
+       font-size: 1.8rem !important;
+       
     }
     .scribbling{
         width: 80%;
@@ -309,7 +308,7 @@ footer li a:hover{
 
 @media (min-width:576px){
     .hero-text{
-        padding: 30px 0 !important;
+        padding: 50px 0 30px 0 !important;
     }
     .hero-text h1{
         width: 100% !important;
@@ -318,9 +317,9 @@ footer li a:hover{
     }
     .hero-text p{
         width: 90% !important;
-        text-align: justify !important;
-        margin: 20px auto !important;
-        line-height: 35px !important;
+        text-align: center !important;
+        margin: 10px auto !important;
+        font-size: 1.2rem !important;
       
     }
     .company-title{
@@ -349,7 +348,7 @@ footer li a:hover{
         font-size: 1.1rem !important;
        }
     .avatar{
-        width: 100%;
+        width: 50%;
      }
      .gg{
         width: 90% !important;
@@ -358,23 +357,25 @@ footer li a:hover{
 }
 
 @media (min-width:768px){
+    .hero-text{
+        padding-top: 40px !important;
+    }
     .hero-text h1{
        font-size: 2.3rem !important;
        width: 90% !important;
       
     }
     .hero-text p{
-        width: 90% !important;
-        text-align: center !important;
-        margin: 20px auto !important;
-        line-height: 35px !important;
-        font-size: 1.5rem !important;
+       
+        margin-top: 12px !important;
+        text-align: center  !important;
+        font-size: 1.2rem !important;
       
     }
     .scribbling{
-        top: 300px !important;
+        top: 100px !important;
         left: 150px !important;
-        width: 60% !important;
+        width: 20% !important;
     }
     .team-title{
         font-size: 1.8rem !important;
@@ -384,8 +385,9 @@ footer li a:hover{
        
      }
     .avatar{
-        width: 100%;
+        width: 50%;
      }
+    
      .subscribe{
         border-radius: 70px;
     }
@@ -399,21 +401,28 @@ footer li a:hover{
 }
 
  @media (min-width:992px){
-    .hero-text h1{
-        width: 100% !important;
-        margin: 0 !important;
-        padding-left: 0rem !important;
-        text-align: center !important;
-    }
-   
-    .hero-text p{
-        width: 100% !important;
+    .hero-text{
+        padding: 70px 0 !important;
     }
     
+    .hero-text h1{
+        width: 90% !important;
+        margin: 0px auto !important;
+        padding-left: 2.8rem !important;
+         font-size: 3rem !important;
+
+    }
+    .hero-text p{
+        width: 100%;
+        padding-left: 2.8rem !important;
+        text-align: center !important;
+        padding-top: 20px !important;
+      
+    }
     .scribbling{
-       width: 40% !important;
-       top: 350px !important;
-       left: 250px !important;
+       width: 30% !important;
+       top: 80px !important;
+       left: -100px !important;
     }
     
     .company-title{
@@ -443,24 +452,28 @@ footer li a:hover{
 
 @media (min-width:1200px){
 
+    .hero-text{
+        padding: 70px 0 !important;
+    }
     
     .hero-text h1{
         width: 90% !important;
-        margin: 80px auto !important;
-        padding-left: 2.8rem !important;
+        margin: 0px auto !important;
+        /* padding-left: 2.8rem !important; */
          font-size: 3rem !important;
 
     }
     .hero-text p{
         width: 100%;
-        padding-left: 2.8rem !important;
+        /* padding-left: 2.8rem !important; */
         text-align: center !important;
+        padding-top: 20px !important;
       
     }
     .scribbling{
         position: absolute;
         width: 25% !important;
-        top: 220px !important;
+        top: 200px !important;
         left: -90px !important;
         
     }

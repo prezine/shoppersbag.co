@@ -154,6 +154,9 @@ footer li a:hover{
        }
 }
 @media(max-width:375px){
+    .hero-text--body{
+        text-align: justify;
+    }
 .blog-avatar{
      width: 60% !important;
 
