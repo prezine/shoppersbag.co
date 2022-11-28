@@ -293,7 +293,7 @@
                                  </p>
                                  <a id="about_linkedin_modal" href="#" class="flex flex-row w-fit items-center px-6 py-2.5 rounded-ten bg-brandDarkGreen2x text-white font-medium text-sm leading-tight shadow-md hover:brandDarkGreen2x/70 hover:shadow-lg gap-2 focus:bg-brandDarkGreen2x focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out">
                                  <p>View profile</p>
-                                 <img src="./assets/images/icons/brandico_linkedin-rect -white.svg" alt="" class="w-6 h-6 inline-block">
+                                 <img src="./assets/images/icons/brandico_linkedin-rect-white.svg" alt="" class="w-6 h-6 inline-block">
                                  </a>
                               </div>
                               </div>
