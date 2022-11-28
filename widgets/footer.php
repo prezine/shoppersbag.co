@@ -48,7 +48,7 @@
             </a>
          </div>
          <p class="text-base text-black font-avenirRegular">For grievances, contact
-            <a href="#" class="font-avenirRegular text-base text-brandPurple1x hover:underline">info@wellofscience.com</a>
+            <a href="mailto:hello@shoppersbag.co" class="font-avenirRegular text-base text-brandPurple1x hover:underline">hello@shoppersbag.co</a>
          </p>
       </div>
    </section>

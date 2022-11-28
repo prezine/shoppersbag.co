@@ -18,7 +18,7 @@
             </div>
             <div id="hamburger" class="md:block lg:hidden space-y-1">
                 <div class="ham-one h-0.75 w-8 rounded-ten bg-brandDarkGreen1x"></div>
-                <div class="ham-two transition-all duration-1000 ease-in-out h-0.75 w-6 rounded-ten bg-brandDarkGreen1x"></div>
+                <div class="ham-two transition-all delay-200 duration-1000 ease-in-out h-0.75 w-6 rounded-ten bg-brandDarkGreen1x"></div>
             </div>
         </nav>
     </header>

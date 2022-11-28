@@ -88,12 +88,12 @@
             <h1 class="font-moderat font-bold text-black text-2xl md:text-5xl">Narrative Building</h1>
             <main class="py-14">
                   <div class="slide-wrap timed-slide flex flex-row h-350 md:h-410 lg:h-550 w-full">
-                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/entry-categories-1.jpg" alt="download"/>
-                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/sdg-hero.png" alt="download"/>
-                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/entry-categories-1.jpg" alt="download"/>
-                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/entry-categories-1.jpg" alt="download"/>
-                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/entry-categories-1.jpg" alt="download"/>
-                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/entry-categories-1.jpg" alt="download"/>
+                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/how-we-work.png" alt="how-we-work"/>
+                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/zero-plastic.png" alt="zero-plastic"/>
+                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/entry-categories.jpg" alt="Entry Categories"/>
+                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/alt-to-plastics.png" alt="alt-to-plastics"/>
+                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/youtube.png" alt="youtube-link"/>
+                     <img class="first:block h-full w-full hidden slides-img" src="./assets/images/narrative-building/learn-more.png" alt="learn-more"/>
                   </div>
                   <div class="dotswrapper flex flex-row items-center gap-4 py-8 mx-auto w-fit">
                      <div class="h-4 md:h-6 w-4 md:w-6 rounded-fiftyPercent bg-brandGray21x dots dotone" onclick="myCurrent(1)"></div>
