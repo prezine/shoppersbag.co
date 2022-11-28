@@ -126,13 +126,13 @@
                      <!-- For shoppers section start -->
                      <section class="tab first:flex hidden flex-col-reverse lg:flex-row items-center w-full gap-10" id="for_shoppers">
                         <div class="slide-text-wrap w-full lg:w-fiftyPercent space-y-5 font-avenirLight mx-auto">
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Download ShoppersBag App & Register</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Connect with Eco-conscious Community in-App</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Shop and Gain Reward from Partnering Mall & Stores</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives </div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Download ShoppersBag App & Register</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Connect with Eco-conscious Community in-App</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Shop and Gain Reward from Partnering Mall & Stores</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives </div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</div>
                         </div>
                         <div class="w-fit lg:w-fiftyPercent pb-10 lg:pb-0">
                               <div class="relative mx-auto w-60 h-60 sm:w-80 sm:h-80 lg:h-auto lg:w-full aspect-square bg-brandBlue3x flex flex-col items-start lg:items-center lg:justify-center rounded-fiftyPercent">
@@ -176,10 +176,10 @@
                      <!-- For malls and stores section start -->
                      <section class="tab first:flex hidden flex-col-reverse lg:flex-row items-center w-full gap-10" id="for_malls_and_stores">
                         <div class="slide-text-wrap w-full lg:w-fiftyPercent space-y-5 font-avenirLight mx-auto">
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Register on ShoppersBag as a Reseller Outlet</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Make Orders for ShoppersBag on App</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan 2D barcode to verify ShoppersBag usage in-store</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Manage eco-conscious customer's loyalty and rewards program</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Register on ShoppersBag as a Reseller Outlet</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Make Orders for ShoppersBag on App</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan 2D barcode to verify ShoppersBag usage in-store</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Manage eco-conscious customer's loyalty and rewards program</div>
                         </div>
                         <div class="w-fit lg:w-fiftyPercent pb-10 lg:pb-0">
                               <div class="relative mx-auto w-60 h-60 sm:w-80 sm:h-80 lg:h-auto lg:w-full aspect-square bg-brandYellow2x flex flex-col items-start lg:items-center lg:justify-center rounded-fiftyPercent">
@@ -220,9 +220,9 @@
                      <!-- For Eco-friendly Bag Producers section start -->
                      <section class="tab first:flex hidden flex-col-reverse lg:flex-row items-center w-full gap-10" id="for_eco_friendly">
                         <div class="slide-text-wrap w-full lg:w-fiftyPercent space-y-5 font-avenirLight mx-auto">
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Partner with ShoppersBag as an Eco-friendly Bag Producer</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Access to Receive ShoppersBag Supply Order from Brands, Malls & Stores for Distribution</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Integrates eco-friendly and reusable shopping bags to ShoppersBag Distribution system</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Partner with ShoppersBag as an Eco-friendly Bag Producer</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Access to Receive ShoppersBag Supply Order from Brands, Malls & Stores for Distribution</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Integrates eco-friendly and reusable shopping bags to ShoppersBag Distribution system</div>
                         </div>
                         <div class="w-fit lg:w-fiftyPercent pb-10 lg:pb-0">
                               <div class="relative mx-auto w-60 h-60 sm:w-80 sm:h-80 lg:h-auto lg:w-full aspect-square bg-brandGreen3x flex flex-col items-start lg:items-center lg:justify-center rounded-fiftyPercent">
@@ -261,9 +261,9 @@
                      <!-- For brands section start -->
                      <section class="tab first:flex hidden flex-col-reverse lg:flex-row items-center w-full gap-10" id="for_brands">
                         <div class="slide-text-wrap w-full lg:w-fiftyPercent space-y-5 font-avenirLight mx-auto">
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Partner with ShoppersBag to drive Sustainability in the Retail Value Chain</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Order for Branded Bags for Distribution to Staff and Customers</div>
-                              <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Setup Campaign and Incentives to Drive ShoppersBag usage, and Encourage a Sustainability Lifestyle among your Staff and Customers</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Partner with ShoppersBag to drive Sustainability in the Retail Value Chain</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Order for Branded Bags for Distribution to Staff and Customers</div>
+                              <div class="first:text-white text-black slide-text cursor-pointer py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Setup Campaign and Incentives to Drive ShoppersBag usage, and Encourage a Sustainability Lifestyle among your Staff and Customers</div>
                         </div>
                         <div class="w-fit lg:w-fiftyPercent pb-10 lg:pb-0">
                               <div class="relative mx-auto w-60 h-60 sm:w-80 sm:h-80 lg:h-auto lg:w-full aspect-square bg-brandRed3x flex flex-col items-start lg:items-center lg:justify-center rounded-fiftyPercent">
