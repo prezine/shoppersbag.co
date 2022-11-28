@@ -1,12 +1,12 @@
 <footer class="px-10 md:px-20 py-16 space-y-16">
    <section class="rounded-ten md:rounded-eighty flex flex-col lg:flex-row justify-between gap-5 items-center bg-brandBlue1x px-5 md:px-16 py-6">
       <div>
-         <h1 class="font-avenirMedium text-2xl text-black">Subscribe to our Newsletter</h1>
+         <h1 class="font-avenirMedium text-center md:text-left text-xl md:text-2xl text-black">Subscribe to our Newsletter</h1>
       </div>
       <div class="flex flex-col md:flex-row items-center gap-3">
          <label for="subscribe_email" class="hidden">Email</label>
          <input type="email" name="subscribe-email" id="subscribe_email" placeholder="Enter your email" class="w-full md:max-w-410 px-10 py-18px placeholder:font-avenirRegular placeholder:text-xl text-xl text-black placeholder:text-brandGray13x bg-white border border-black rounded-sixty">
-         <button type="submit" class="px-10 py-18px text-xl text-white bg-black hover:shadow-md hover:shadow-gray-700 rounded-sixty">Subscribe</button>
+         <button type="submit" class="px-10 py-18px text-lg md:text-xl text-white bg-black hover:shadow-md hover:shadow-gray-700 rounded-sixty">Subscribe</button>
       </div>
    </section>
    <section class="py-20 lg:py-60px px-10 sm:px-20 border flex flex-row flex-wrap items-start justify-start lg:grid grid-cols-12 border-black rounded-ten md:rounded-twoFifty lg:rounded-fiveHundred">
