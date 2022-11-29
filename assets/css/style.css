@@ -450,7 +450,10 @@ footer li a:hover{
 
 
 @media (min-width: 375px) {
-  
+ 
+    .index-section{
+        margin-top: 10rem !important;
+    }
     .hero-index p{
         margin-top: 20px !important ;
     }

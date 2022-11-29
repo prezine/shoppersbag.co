@@ -273,6 +273,9 @@ footer li a:hover{
 
 @media (min-width:375px){
    
+    .about-section{
+        margin-top: 10rem !important;
+    }
     .hero-text{
         margin: 60px auto !important;
         

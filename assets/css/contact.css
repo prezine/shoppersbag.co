@@ -87,6 +87,9 @@ footer li a:hover{
     font-size: .8rem !important ;
 }
 @media (max-width:1400px){
+    .contact-hero-section{
+        margin-top: 10rem !important;
+    }
     .map{
         width: 100%;
         min-height: 400px;
@@ -131,5 +134,4 @@ footer li a:hover{
     .footer-border{
         border-radius: 30px !important;
     }
-    
 }
