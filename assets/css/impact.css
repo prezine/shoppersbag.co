@@ -433,7 +433,7 @@ footer li a:hover{
     }
     .custom-container{
         border: 2px solid black;
-        border-radius: 60px;
+        border-radius: 80px;
         width: 700px !important;
         margin: 0 auto;
         padding: 1.8rem 0;
