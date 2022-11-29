@@ -272,7 +272,10 @@ footer li a:hover{
 
 
 @media (min-width:375px){
-   
+   .cutm-card{
+    width: 85% !important;
+    margin: 0 auto !important;
+   }
     .about-section{
         margin-top: 10rem !important;
     }
@@ -316,7 +319,23 @@ footer li a:hover{
     }
 }
 
+@media(max-width:481px){
+    .cutm-card{
+        width: 70% !important;
+        margin: 0 auto !important;
+       }
+}
+@media(max-width:575px){
+    .cutm-card{
+        width: 55% !important;
+        margin: 0 auto !important;
+       }
+}
 @media (min-width:576px){
+    .cutm-card{
+        width: 85% !important;
+        margin: 0 auto !important;
+       }
     .hero-text{
         padding: 50px 0 30px 0 !important;
     }
@@ -367,6 +386,10 @@ footer li a:hover{
 }
 
 @media (min-width:768px){
+    .cutm-card{
+        width: 100% !important;
+        margin: 0 auto !important;
+       }
     .hero-text{
         padding-top: 40px !important;
     }
