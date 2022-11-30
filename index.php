@@ -381,28 +381,34 @@
          <section class="w-full grid grid-rows-2 px-2 md:px-20 divide-y divide-brandGray10x">
             <div class=" grid grid-cols-3 w-full divide-x divide-brandGray10x">
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>1288</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
                      <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>ShoppersBag in Circulation</h1>
                   </div>
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>20</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
                      <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Partnering Brands</h1>
                   </div>
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>25</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
                      <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Women and Girls Impacted</h1>
                   </div>
             </div>
             <div class="grid grid-cols-3 w-full divide-x divide-brandGray10x">
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>0</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
                      <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Single-use Plastic Reduction</h1>
                   </div>
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>7</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
                      <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Eco-friendly Bag Producers</h1>
                   </div>
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>2</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
                      <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Partnering Brands</h1>
                   </div>

@@ -1707,6 +1707,10 @@ video {
   padding-top: 7rem;
 }
 
+.pb-tenPixel {
+  padding-bottom: 0.625rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1944,6 +1948,10 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.delay-200 {
+  transition-delay: 200ms;
 }
 
 .duration-150 {
@@ -2311,6 +2319,11 @@ video {
     line-height: 1.75rem;
   }
 
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
   .placeholder\:sm\:text-xl::-moz-placeholder {
     font-size: 1.25rem;
     line-height: 1.75rem;
@@ -2333,14 +2346,6 @@ video {
 
   .md\:right-36 {
     right: 9rem;
-  }
-
-  .md\:-right-36 {
-    right: -9rem;
-  }
-
-  .md\:-right-28 {
-    right: -7rem;
   }
 
   .md\:-right-20 {
