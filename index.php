@@ -112,8 +112,7 @@
          <section class="py-20 px-10 md:px-20 flex flex-col gap-10 items-center box-border h-fit ">
             <div class="font-avenirHeavy space-y-4 text-black text-center">
                   <h1 class="text-3xl lg:text-4xl">How ShoppersBag Works</h1>
-                  <h3 class="text-xl lg:text-2xl" id="how_header">For shoppers</h3>
-                  <h3 class="text-base font-avenirLight text-brandGray2x max-w-xs md:max-w-xl" id="how_text">Use ShoppersBag to shop, earn and save the planet</h3>
+                  <h3 class="text-base font-avenirRegular text-black max-w-xs md:max-w-xl" id="how_text">Use ShoppersBag to shop, earn and save the planet</h3>
             </div>
             <section class="w-full xl:px-20">
                   <div class="w-full overflow-x-auto md:w-ninetyPercent mx-auto lg:justify-center  flex flex-row pt-24 font-avenirHeavy text-black">

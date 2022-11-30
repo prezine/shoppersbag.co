@@ -148,6 +148,7 @@
                               impact lives and communities. It's a marathon, 
                               I move.
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -163,6 +164,7 @@
                               super creatives cooking what would be 
                               called a mouth-watering dish.                    
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -178,6 +180,7 @@
                               funnels down to outcomes that advance 
                               the common good.
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -193,6 +196,7 @@
                               and I look forward to saving our planet, 
                               one ShoppersBag at a time. #LetsGoThere!!!
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -210,6 +214,7 @@
                               great imagination. I strongly believe in the mantra, 
                               “WE RISE BY LIFTING OTHERS.”
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -222,6 +227,7 @@
                               transition to a plastic-free world through 
                               alternative eco-friendly solutions like ShoppersBag. It's particularly thrilling to be part of a team working to save the environment, improve livelihood and empower communities.
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -240,6 +246,7 @@
                               Impact. I'm enjoying the work and poised for the 
                               challenges ahead.
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -252,6 +259,7 @@
                               impact, and a service of equipping young girls 
                               to build resilience for common good.
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -265,6 +273,7 @@
                               detail, built to give our customers the 
                               lasting quality and value they deserve.
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <div data-modal="about_modal" class="py-10 modal-opener">
@@ -280,11 +289,12 @@
                               people who are passionate about environmental 
                               sustainability is an exciting opportunity.
                         </p>
+                        <p class="hidden about-personality">Greenny Green</p>
                         <p class="hidden about-linkedin">https://www.linkedin.com</p>
                      </div>
                      <section id="about_modal" class="hidden z-200 w-full h-full overflow-y-auto fixed top-0 left-0 flex-col items-center lg:justify-center">
                         <div id="" data-modal-close="about_modal" class="overlay modal-closer bg-black/30 w-full h-full z-20 backdrop-blur-sm fixed top-0 left-0 cursor-pointer "> </div>
-                        <div class="z-50 mx-auto w-ninetyPercent sm:w-eightyPercent h-eightyPercent my-40 sm:h-fit max-w-xl shadow-xl rounded-fifty bg-white justify-center">
+                        <div class="z-50 mx-auto w-ninetyPercent sm:w-eightyPercent h-fit max-h-eightyPercent my-fiftyPercent sm:my-40 sm:max-h-none sm:h-fit max-w-xl shadow-xl rounded-fifty bg-white justify-center">
                               <div class="relative bg-transparent rounded-fifty flex flex-row items-center">
                               <img id="about_img_modal" src="./assets/images/team/Ellipse12.png" alt="member" class="absolute -top-20 left-fiftyPercent -translate-x-fiftyPercent md:-translate-x-0 md:top-auto md:-translate-y-auto md:-left-20 max-h-40 about-img cursor-pointer max-w-160px">
                               <div class="block rounded-fifty h-full overflow-y-auto sm:h-auto w-full bg-white px-10 md:pl-24 md:pr-12 pt-24 pb-12 md:py-10 space-y-6">
@@ -292,6 +302,12 @@
                                  <p id="about_snippet_modal" class="font-avenirRegular text-black text-sm sm:text-base mb-4">
                                  I oversee the day-to-day execution of the ShoppersBag's playbook to achieve a plastic-free society and lifestyle transformation. My experience cut across diverse sectors, arming me with the needed toolkits to co-create solutions that will grow the circular economy space and impact lives and communities. It's a marathon, I move.
                                  </p>
+                                 <div>
+                                    <p class="text-base sm:text-lg md:text-xl font-avenirBlack text-black"><span id="about_name_modal">Etia Nwaenang</span> is a <span id="about_personality_modal">Greenny Green</span></p>
+                                    <p class="text-base sm:text-lg md:text-xl font-avenirBlack text-black">
+                                       What's your environmental personality?
+                                    </p>
+                                 </div>
                                  <a id="about_linkedin_modal" href="#" class="flex flex-row w-fit items-center px-6 py-2.5 rounded-ten bg-brandDarkGreen2x text-white font-medium text-sm leading-tight shadow-md hover:brandDarkGreen2x/70 hover:shadow-lg gap-2 focus:bg-brandDarkGreen2x focus:shadow-lg focus:outline-none focus:ring-0  active:shadow-lg transition duration-150 ease-in-out">
                                  <p>View profile</p>
                                  <img src="./assets/images/icons/brandico_linkedin-rect-white.svg" alt="" class="w-6 h-6 inline-block">
