@@ -106,9 +106,9 @@
             </main>
          </section>
          <section class="px-10 md:px-20 pb-10 space-y-20">
-            <div class="relative w-full mx-auto">
-                  <div class="z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex flex-col sm:flex-row items-start gap-5">
-                     <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-eightyPercent sm:w-fortyPercent">
+            <div class="impact-slide-text-wrap relative w-full mx-auto">
+                  <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
+                     <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
                         How we work with content creators
                      </h1>
                      <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
@@ -118,6 +118,74 @@
                         <p class="font-avenirRegular text-black text-lg">
                               Doing away with plastic shopping bags requires behavioral change. That is where narrative building comes in.
                         </p>
+                     </div>
+                  </div>
+                  <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
+                     <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
+                        Our Goal in the Naija Zero Plastic Challenge
+                     </h1>
+                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
+                        <p class="font-avenirRegular text-black text-lg">
+                           To engage content creators to deepen the awareness of adopting a zero plastic lifestyle that encourages behavioral change and a leap towards smart eco-friendly alternatives.                        
+                        </p>
+                     </div>
+                  </div>
+                  <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
+                     <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
+                        Entry Categories
+                     </h1>
+                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
+                        <p class="font-avenirRegular text-black text-lg">
+                           The Challenge is designed to deepen zero plastic narrative using creative media such as Visual Art, Spoken Word, Short Video, Music and Photography.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
+                     <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
+                        The Challenge seeks to achieve the following objectives:
+                     </h1>
+                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
+                        <p class="font-avenirRegular text-black text-lg">
+                           Build a narrative using creative and digital channels to drive the adoption of a zero plastic lifestyle in Nigeria.                        
+                        </p>
+                        <p class="font-avenirRegular text-black text-lg">
+                           Create awareness about the negative impact of plastic waste on our environment and the need for the adoption of eco-friendly and smart alternatives to plastics.
+                        </p>
+                        <p class="font-avenirRegular text-black text-lg">
+                           Deepen stakeholders participation in the advocacy for a circular economy.
+                        </p>
+                     </div>
+                  </div>
+                  <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
+                     <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
+                        Naija Zero Plastic Challenge Award events
+                     </h1>
+                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
+                        <p class="font-avenirRegular text-black text-lg">
+                           Catch a preview on our 
+                           <a href="https://youtu.be/o5SFL43JwWw" class="underline font-avenirRegular text-brandRed1x text-lg">
+                           Youtube channel.                        
+                           </a>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
+                     <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
+                        Your Partnership:
+                     </h1>
+                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
+                        <p class="font-avenirRegular text-black text-lg">
+                           Helps the message reach a lot more people
+                        </p>
+                       <div class="flex flex-row py-2 gap-2 items-center">
+                           <a href="https://www.shoppersbag.co/naijazeroplasticchallenge" class="underline font-avenirRegular text-brandRed1x text-base">
+                              Learn more
+                           </a>
+                           <svg class="-rotate-45" width="16" height="16" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#FF3A44" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                              <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#FF3A44" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                           </svg>
+                       </div>
                      </div>
                   </div>
                   <div class="absolute w-full bg-brandGray22x h-full rounded-twenty -left-2 -bottom-2"></div>

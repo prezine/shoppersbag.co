@@ -892,6 +892,10 @@ video {
   min-height: 100%;
 }
 
+.min-h-200px {
+  min-height: 12.5rem;
+}
+
 .w-fortyPercent {
   width: 40%;
 }
@@ -1703,12 +1707,12 @@ video {
   padding-bottom: 5rem;
 }
 
-.pt-28 {
-  padding-top: 7rem;
-}
-
 .pb-tenPixel {
   padding-bottom: 0.625rem;
+}
+
+.pt-28 {
+  padding-top: 7rem;
 }
 
 .text-left {

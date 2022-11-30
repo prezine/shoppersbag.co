@@ -74,6 +74,8 @@ $('.slide-text-wrap').each(function(){
 
 var x = document.getElementsByClassName("slides-img");
 var dot = document.getElementsByClassName("dots");
+var impact_slide_text = document.getElementsByClassName('impact-slide-text')
+
 // let slideImg = document.getElementsByClassName('slideimg')
 
 var index = 1;
@@ -91,7 +93,9 @@ function myCurrent(n){
 setInterval(() => {
     index++
     myShows(index)
-}, 5000);
+}, 10000);
+
+
 
 function myShows(){
    if (index > (x.length)) {index = 1}
@@ -107,6 +111,11 @@ function myShows(){
       dot[i].style.backgroundColor = ''
    }
    dot[index-1].style.backgroundColor = '#123845'
+   for(let i = 0; i < impact_slide_text.length; i++)
+   {
+      impact_slide_text[i].style.display = 'none'
+   }
+   impact_slide_text[index-1].style.display = 'flex'
    
    
 }
