@@ -6,6 +6,7 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./assets/css/tailwind.css">
       <link rel="stylesheet" href="./assets/css/fonts.css">
+      <link rel="shortcut icon" href="./assets/images/logos/logo-round.png" type="image/x-icon">
       <title>Shoppers Bag | FAQ</title>
    </head>
    <body class="box-border bg-white">

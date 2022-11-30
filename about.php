@@ -6,7 +6,8 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="./assets/css/tailwind.css">
       <link rel="stylesheet" href="./assets/css/fonts.css">
-      <title>Shoppers Bag | Home</title>
+      <link rel="shortcut icon" href="./assets/images/logos/logo-round.png" type="image/x-icon">
+      <title>Shoppers Bag | About</title>
    </head>
    <body class="box-border overflow-x-hidden bg-white">
       <?php include_once './widgets/header.php'; ?>
