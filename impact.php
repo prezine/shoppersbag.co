@@ -195,7 +195,7 @@
                      <p class="font-avenirRegular text-black md:text-lg">
                         Naija Zero Plastic Challenge 2022 Report
                      </p>
-                     <h1 class="font-avenirHeavy text-black bg-brandYellow1x rounded-fifty text-2xl py-3 md:py-6 px-5 md:px-10 whitespace-nowrap">Download</h1>
+                     <a href="#" class="font-avenirHeavy text-black bg-brandYellow1x rounded-fifty text-2xl py-3 md:py-6 px-5 md:px-10 whitespace-nowrap" download>Download</a>
                   </div>
                   <div class="absolute w-full bg-brandYellow4x h-full rounded-fifty -left-2 -bottom-2"></div>
             </div>

@@ -124,7 +124,7 @@
                      </div>
                   </div>
          </section>
-         <section class="py-32 px-10 md:px-20 bg-brandYellow3x">
+         <section id="team" class="py-32 px-10 md:px-20 bg-brandYellow3x">
             <div class="relative w-ninetyPercent md:w-seventyPercent mx-auto">
                   <div class="z-30 relative py-4 px-5 mx-auto rounded-fifty bg-white border border-black w-full flex flex-col md:flex-row items-center gap-tenPixel">
                      <h1 class="font-avenirHeavy text-black bg-brandYellow1x rounded-fifty text-2xl py-6 px-10 whitespace-nowrap">The Team</h1>

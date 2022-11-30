@@ -12,9 +12,9 @@
    <section class="py-20 lg:py-60px px-10 sm:px-20 border flex flex-row flex-wrap items-start justify-start lg:grid grid-cols-12 border-black rounded-ten md:rounded-twoFifty lg:rounded-fiveHundred">
       <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
          <h1 class="font-avenirHeavy text-3xl">Company</h1>
-         <a href="#" class="font-avenirRegular text-xl text-black hover:underline">About</a>
-         <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Team</a>
-         <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Impact</a>
+         <a href="./about" class="font-avenirRegular text-xl text-black hover:underline">About</a>
+         <a href="./about#team" class="font-avenirRegular text-xl text-black hover:underline">Team</a>
+         <a href="./impact" class="font-avenirRegular text-xl text-black hover:underline">Impact</a>
          <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Careers</a>
          <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Partnerships</a>
          <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Press</a>
@@ -28,7 +28,7 @@
       </div>
       <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
          <h1 class="font-avenirHeavy text-3xl">Resources</h1>
-         <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Blog</a>
+         <a href="./blog" class="font-avenirRegular text-xl text-black hover:underline">Blog</a>
          <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Live chat</a>
       </div>
       <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
