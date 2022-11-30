@@ -109,8 +109,9 @@
                               <p class="text-base md:text-xl font-avenirRegular text-brandGray25x">Scaling</p>
                               <h1 class="text-black text-lg md:text-2xl font-avenirHeavy">April, <br/>2023</h1>
                         </div>
+                        <div class="w-7 h-7 bg-brandBlue1x rounded-fifty absolute -bottom-5 -left-1"></div>
+                        <div class="w-7 h-7 bg-brandBlue1x rounded-fifty absolute -bottom-5 -right-1"></div>
                      </div>
-                     <!-- <div class="w-7 h-7 bg-brandBlue1x rounded-fifty absolute bottom-76px lg:left-fiftyPercent"></div> -->
                   </div>
             <!-- <div class="absolute h-3 w-fortyPercent bg-brandBlue1x left-0 -bottom-3"></div> -->
          </section>

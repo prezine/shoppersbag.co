@@ -109,7 +109,7 @@
             <div class="impact-slide-text-wrap relative w-full mx-auto">
                   <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
                      <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
-                        How we work with content creators
+                        How We Are Working with Content Creators                     
                      </h1>
                      <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
                         <p class="font-avenirRegular text-black text-lg">

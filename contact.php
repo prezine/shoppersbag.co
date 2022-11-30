@@ -24,15 +24,9 @@
             </div>
          </section>
          <section class="px-10 md:px-20 pb-10">
-            <main class="grid sm:grid-cols-3 gap-5 md:gap-10">
+            <main class="grid sm:grid-cols-1 gap-5 md:gap-10">
                   <div class="h-fit w-fit col-span-1">
-                     <img src="./assets/images/contact-us/water.png" alt="">
-                  </div>
-                  <div class="h-fit w-fit col-span-1">
-                     <img src="./assets/images/contact-us/dart.png" alt="">
-                  </div>
-                  <div class="h-fit w-fit col-span-1">
-                     <img src="./assets/images/contact-us/alt-to-plastics.png" alt="">
+                     <img src="./assets/images/contact-us/map-of-shoppersbag-address.png" alt="map-of-shoppersbag-address" class="">
                   </div>
             </main>
          </section>
