@@ -172,12 +172,9 @@
                   </div>
                   <div class="impact-slide-text min-h-200px first:flex hidden z-30 relative py-10 px-10 lg:px-16 mx-auto rounded-twenty bg-white w-full flex-col sm:flex-row items-start gap-5">
                      <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
-                        Your Partnership:
+                        Your Partnership will helps the message reach a lot more people
                      </h1>
-                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
-                        <p class="font-avenirRegular text-black text-lg">
-                           Helps the message reach a lot more people
-                        </p>
+                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20"
                        <div class="flex flex-row py-2 gap-2 items-center">
                            <a href="https://www.shoppersbag.co/naijazeroplasticchallenge" class="underline font-avenirRegular text-brandRed1x text-base">
                               Learn more
