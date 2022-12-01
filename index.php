@@ -388,7 +388,7 @@
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
                      <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>20</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Partnering Brands</h1>
+                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Partnering Stores</h1>
                   </div>
                   <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
                      <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>25</h1>
