@@ -750,19 +750,9 @@ video {
   margin-right: auto;
 }
 
-.my-40 {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
-}
-
 .my-fiftyPercent {
   margin-top: 50%;
   margin-bottom: 50%;
-}
-
-.my-tenPercent {
-  margin-top: 10%;
-  margin-bottom: 10%;
 }
 
 .mb-2 {
@@ -830,10 +820,6 @@ video {
   height: 10rem;
 }
 
-.h-eightyPercent {
-  height: 80%;
-}
-
 .h-6 {
   height: 1.5rem;
 }
@@ -894,6 +880,10 @@ video {
   height: 0px;
 }
 
+.max-h-eightyPercent {
+  max-height: 80%;
+}
+
 .max-h-40 {
   max-height: 10rem;
 }
@@ -904,10 +894,6 @@ video {
 
 .max-h-410 {
   max-height: 25.625rem;
-}
-
-.max-h-eightyPercent {
-  max-height: 80%;
 }
 
 .min-h-full {
@@ -2208,10 +2194,6 @@ video {
     height: 20rem;
   }
 
-  .sm\:max-h-0 {
-    max-height: 0px;
-  }
-
   .sm\:w-500 {
     width: 31.25rem;
   }
@@ -2334,6 +2316,11 @@ video {
     line-height: 1.5rem;
   }
 
+  .sm\:text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+
   .sm\:text-5xl {
     font-size: 3rem;
     line-height: 1;
@@ -2346,11 +2333,6 @@ video {
 
   .sm\:text-xl {
     font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
-  .sm\:text-lg {
-    font-size: 1.125rem;
     line-height: 1.75rem;
   }
 

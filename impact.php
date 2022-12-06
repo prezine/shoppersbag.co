@@ -174,7 +174,7 @@
                      <h1 class="font-avenirHeavy text-black text-2xl lg:text-3xl w-ninetyPercent sm:w-fortyPercent">
                         Your Partnership will helps the message reach a lot more people
                      </h1>
-                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20"
+                     <div class="space-y-3 w-full sm:w-sixtyPercent pr-5 md:pr-16 lg:pr-20">
                        <div class="flex flex-row py-2 gap-2 items-center">
                            <a href="https://www.shoppersbag.co/naijazeroplasticchallenge" class="underline font-avenirRegular text-brandRed1x text-base">
                               Learn more
@@ -183,7 +183,7 @@
                               <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#FF3A44" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                               <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#FF3A44" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                            </svg>
-                       </div>
+                        </div>
                      </div>
                   </div>
                   <div class="absolute w-full bg-brandGray22x h-full rounded-twenty -left-2 -bottom-2"></div>
