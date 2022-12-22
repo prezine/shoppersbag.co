@@ -96,13 +96,15 @@ body a, li{
     color: var();
 }
 .recyle-text--heading{
-    font-weight: 900!important;
-    font-size: 1rem !important;
+    font-size: 2rem !important;
+    color: var(--fontblue) !important;
+    font-weight: 800;
 }
 
 .recyle-text--desc{
     font-size: 1.2rem !important;
-    text-align: start !important;
+    text-align: justify !important;
+    width: 100%;
   
 }
 .our-company{
@@ -114,6 +116,10 @@ body a, li{
 }
 .company-title{
     font-size: 2rem !important;
+    color: var(--fontblue) !important;
+    font-weight: 800;
+
+
 
 }
 .table{
@@ -246,17 +252,17 @@ body a, li{
 
 .footer-border{
     margin-top: 55px !important;
-    border-radius: 160px !important;
+    border-radius: 200px !important;
     border: 2px solid black !important;
     padding: 50px;
     font-family: 'Avenir', sans-serif;
     
 }
-footer li a{
+/* footer li, a{
     font-size: 1rem;
     font-weight: 400;
     color: black;
-}
+} */
 footer li a:hover{
     color: var(--purple);
 }

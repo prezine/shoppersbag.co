@@ -106,7 +106,20 @@ footer li a:hover{
     }
     
     .footer-border{
-        border-radius: 130px !important;
+        border-radius: 200px !important;
+    }
+    .cust_btn-1, .cust_btn-1 a{
+        background-color: var(--lightblue);
+        border-radius: 25px;
+        border: none;
+        color: #ffff;
+        padding: .5rem 1rem;
+    }
+    .input_div input::placeholder{
+        color:  var(--fontblue);
+    }
+    .input_div textarea::placeholder{
+        color:  var(--fontblue);
     }
 }
 @media (max-width:991px){
@@ -134,4 +147,5 @@ footer li a:hover{
     .footer-border{
         border-radius: 30px !important;
     }
+}
 }

@@ -137,13 +137,15 @@ position: absolute;
 }
 .waste_figures{
     font-family: 'Neogrey Medium', sans-serif;
-    font-size: 1.3rem !important;
+    font-size: 1.7rem !important;
     color: var(--darkblue);
+    font-weight: 800;
+    line-height: 10px;
 }
 
 .waste_figures__desc{
     font-family: "Avenir", sans-serif;
-    font-size: 1rem !important;
+    font-size: 1.2rem !important;
     color: var(--lightgrey);
     height: 60% !important;
     
@@ -169,6 +171,7 @@ position: absolute;
    
 
 }
+
 .plastic_stats{
    margin-top: 20px;
 }
@@ -213,10 +216,36 @@ position: absolute;
     position: relative;
 }
 
+#users-categpries{
 
-.elipse-img{
-    width: 100% !important;
+    border: 2px solid var(--darkblue) !important;
+    border-radius: 25px;
+    outline: none;
+    padding: 0 2rem;
 }
+
+/* .select select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+}
+ select::-ms-expand{
+    display: none;
+}  */
+/* .select{
+    position: relative;
+}
+ .select::after{
+    content:  '\25BC';
+    position: absolute;
+    top: 10px;
+    right: 400px;
+    cursor: pointer;
+    padding: 0 1em;
+    background-color: transparent;
+    color: var(--green);
+}  */
 
 .try-out{
     /* margin-right: 1rem 3rem; */
@@ -277,6 +306,11 @@ position: absolute;
     font-weight:200 !important;
     
 }
+.heading_1{
+    font-size: 2rem;
+    color: var(--fontblue);
+}
+
 .why-section{
    background-color: #F6F4F9; 
    padding-top: 20px;
@@ -321,6 +355,7 @@ position: absolute;
     width: 80% !important;
     position: relative;
     margin-bottom: 20px !important;
+    margin-top: -60px !important;
 }
 .img-text{
     font-family: 'Avenir', sans-serif;
@@ -421,14 +456,14 @@ position: absolute;
 
 .footer-border{
     margin-top: 55px !important;
-    border-radius: 160px !important;
+    border-radius: 200px !important;
     border: 2px solid black !important;
     padding: 50px;
     font-family: 'Avenir', sans-serif;
     
 }
 footer li a{
-    font-size: 1rem;
+    font-size: 1.2rem !important;
     font-weight: 400;
     color: black;
 }
@@ -440,7 +475,8 @@ footer li a:hover{
     font-weight: 900;
 }
 .reach-out{
-    font-size: .8rem !important ;
+    font-size: 2rem !important ;
+    line-height: 15px;
 }
 
 
@@ -505,6 +541,11 @@ footer li a:hover{
     font-size: 1.2rem !important;
     /* text-align: justify !important; */
     /* width: 300px !important; */
+}
+.metric_value{
+    font-size: 2.5rem;
+    height: 100%;
+    margin-left: 10%;
 }
 .appstore-btn{
     width:40% !important;
@@ -897,9 +938,10 @@ footer li a:hover{
     .sav_earn-img{
         display: block;
         position: absolute;
-        width: 55% !important;
+        width: 45% !important;
         top: 8% !important;
-        left: 540px !important;
+        left: 600px !important;
+        border-radius: 30px !important;
         }
     .mission{
         display: block;
