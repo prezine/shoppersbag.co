@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./assets/css/impact.css">
     <link rel="stylesheet" href="./assets/css/contact.css">
     <link rel="stylesheet" href="./assets/css/about.css">
+    <link rel="shortcut icon" href="./assets/images/logos/logo-round.png" type="image/x-icon">
+
     <!-- LOCAL -->
     <!-- <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> -->
     <!-- <script src="./node_modules/@popperjs/core/dist/umd/popper.min.js"></script> -->
@@ -32,7 +34,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap-5.2.0-dist/css/bootstrap.min.css">       
-    <title>Home</title>
+    <title>ShoppersBag | Home</title>
 </head>
 <body>
     <header class="">
@@ -185,258 +187,260 @@
         </section>
         <div class="container">
             <section class="how-it-works my-5">
-                <h2 class="text-center heading_1">How ShoppersBag Works</h2>
-                <div class="text-center select d-flex justify-content-center">
-                      <select class="text-dark fs-4 border-0 text-start  text-capitalize bg-white" id="users-categpries" onchange="showUserCategoryDetail(event)">
-                          <option value="shoppers" selected id="forShoppers" >
-                            For Shoppers
-                          </option>
-                          <option value="malls" id="forMalls" >
-                            For malls and stores
-                          </option>
-                          <option value="ecoFriendly" id="forEco" >
-                            For Eco-friendly Bag Producers
-                          </option>
-                          <option value="brands" id="forBrands" >
-                            For brands
-                          </option>
-                      </select>
-                </div>
-                <!-- for shoppers -->
-                <div id="shoppers" class="my-5 users-category-detail showing"> 
-                    <div class="row d-xl-flex mt-xl-5">
-                        
-                        <div class="col-xl-5   col-sm-10 offset-sm-1 col-md-6  offset-md-0 col-lg-5 col-10 offset-1">
-                            <div class="d-flex align-items-start">
-                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                    <button class="nav-lin active rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-download-tab" data-bs-toggle="pill" data-bs-target="#v-pills-download" type="button" role="tab" aria-controls="v-pills-download" aria-selected="true">Download ShoppersBag App & Register </button>
-                                    <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-locate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-locate" type="button" role="tab" aria-controls="v-pills-locate" aria-selected="false">Locate Nearby Mall, Store, and Purchase ShoppersBag</button>
-                                    <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-scan-tab" data-bs-toggle="pill" data-bs-target="#v-pills-scan" type="button" role="tab" aria-controls="v-pills-scan" aria-selected="false" scan>Scan QR Code to Activate ShoppersBag</button>
-                                    <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-connect-tab" data-bs-toggle="pill" data-bs-target="#v-pills-connect" type="button" role="tab" aria-controls="v-pills-connect" aria-selected="false">Connect with Eco-conscious Community in-App</button>
-                                    <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-shop-tab" data-bs-toggle="pill" data-bs-target="#v-pills-shop" type="button" role="tab" aria-controls="v-pills-shop" aria-selected="false">Shop and Gain Reward from Partnering Mall & Stores</button>
-                                    <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-participate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-participate" type="button" role="tab" aria-controls="v-pills-participate" aria-selected="false">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives</button>
-                                    <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-share-tab" data-bs-toggle="pill" data-bs-target="#v-pills-share" type="button" role="tab" aria-controls="v-pills-share" aria-selected="false">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</button>
-                                  </div>
-                               
-                            </div>
-                        </div>
-                        <div class="col-xl-6  offset-xl-1 align-self-xl-center col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0 align-self-md-center align-self-lg-center position-relative">
-                            <div class="ellipse ">
-                                <div class="tab-content" id="v-pills-tabContent">
-                                    <div class="tab-pane fade show active" id="v-pills-download" role="tabpanel" aria-labelledby="v-pills-download-tab" tabindex="0">
-                                        <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/1.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-locate" role="tabpanel" aria-labelledby="v-pills-locate-tab" tabindex="0">
-                                    <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/2.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-scan" role="tabpanel" aria-labelledby="v-pills-scan-tab" tabindex="0">
-                                        <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/3.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
-                                    </div>
-                                  <div class="tab-pane fade" id="v-pills-connect" role="tabpanel" aria-labelledby="v-pills-connect-tab" tabindex="0">
-                                    <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/4.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-shop" role="tabpanel" aria-labelledby="v-pills-shop-tab" tabindex="0">
-                                    <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/5.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-participate" role="tabpanel" aria-labelledby="v-pills-participate-tab" tabindex="0">
-                                    <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/6.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
-                                  </div>
-                                  <div class="tab-pane fade" id="v-pills-share" role="tabpanel" aria-labelledby="v-pills-share-tab" tabindex="0">
-                                    <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/7.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
-                                  </div>
-                                </div>
-                                <div class="get-app d-flex justify-content-center ms-md-5">
-                                    <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
-                                    <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2 store"></div>
-                                </div>
-                                <div class="">
-                                    <div class="circle-left position-absolute">
-                                        <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-dark py-1"></i></span>
-                                    </div>
-                                    <div class="circle-right position-absolute">
-                                        <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-white py-1"></i></span>
-                                    </div>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    <div class="row">
-                        <div class=" col-10 offset-1  col-sm-9 offset-sm-2  col-md-9 offset-md-2 col-lg-10 offset-lg-1 col-xl-9 offset-xl-2">
-                            <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Download ShoppersBag App to Start Earning Rewards</button>
-                        </div>
-                    </div>
-                </div>
-               
+                <h2 class="text-center heading_1 mb-4">How ShoppersBag Works</h2>
 
-                <!-- for malls and stores -->
-                <div id="malls" class="users-category-detail">
-                    <p class="text-xl-center text-md-center text-lg-center text-center w-xl-75 my-3 mx-xl-auto mt-xl-4  fs-4">Use ShoppersBag to increase customer engagement, loyalty, and store revenue</p>
-                    <div class="row d-xl-flex mt-xl-5">
-                        
-                        <div class="col-xl-5 align-self-xl-center col-md-6 offset-md-0 col-lg-5 offset-0 col-10 offset-1">
-                            <div class="d-flex align-items-start">
-                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3 active" id="v-pills-register-tab" data-bs-toggle="pill" data-bs-target="#v-pills-register" type="button" role="tab" aria-controls="v-pills-register" aria-selected="true">Register on ShoppersBag as a Reseller Outlet </button>
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-orders-tab" data-bs-toggle="pill" data-bs-target="#v-pills-orders" type="button" role="tab" aria-controls="v-pills-orders" aria-selected="false">Make Orders for ShoppersBag on App</button>
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-scanbarcode-tab" data-bs-toggle="pill" data-bs-target="#v-pills-scanbarcode" type="button" role="tab" aria-controls="v-pills-scanbarcode" aria-selected="false">Scan 2D barcode to verify ShoppersBag usage in-store</button>
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-manage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-manage" type="button" role="tab" aria-controls="v-pills-manage" aria-selected="false">Manage eco-conscious customer’s loyalty and rewards program</button>
+                <!-- navs and tabs -->
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link active text-dark fs-4" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">For Shoppers</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link text-capitalize text-dark fs-4" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false"> For malls and stores</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link text-capitalize text-dark fs-4" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">For Eco-friendly Bag Producers</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                      <button class="nav-link text-capitalize text-dark fs-4" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false" >For brands</button>
+                    </li>
+                  </ul>
+                  <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                        <!-- for shpppers -->
+                        <div id="shoppers" class="my-5 users-category-detail showing"> 
+                        <div class="row d-xl-flex mt-xl-5">
+                            
+                            <div class="col-xl-5   col-sm-10 offset-sm-1 col-md-6  offset-md-0 col-lg-5 col-10 offset-1">
+                                <div class="d-flex align-items-start">
+                                    <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                        <button class="nav-lin active rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-download-tab" data-bs-toggle="pill" data-bs-target="#v-pills-download" type="button" role="tab" aria-controls="v-pills-download" aria-selected="true">Download ShoppersBag App & Register </button>
+                                        <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-locate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-locate" type="button" role="tab" aria-controls="v-pills-locate" aria-selected="false">Locate Nearby Mall, Store, and Purchase ShoppersBag</button>
+                                        <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-scan-tab" data-bs-toggle="pill" data-bs-target="#v-pills-scan" type="button" role="tab" aria-controls="v-pills-scan" aria-selected="false" scan>Scan QR Code to Activate ShoppersBag</button>
+                                        <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-connect-tab" data-bs-toggle="pill" data-bs-target="#v-pills-connect" type="button" role="tab" aria-controls="v-pills-connect" aria-selected="false">Connect with Eco-conscious Community in-App</button>
+                                        <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-shop-tab" data-bs-toggle="pill" data-bs-target="#v-pills-shop" type="button" role="tab" aria-controls="v-pills-shop" aria-selected="false">Shop and Gain Reward from Partnering Mall & Stores</button>
+                                        <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-participate-tab" data-bs-toggle="pill" data-bs-target="#v-pills-participate" type="button" role="tab" aria-controls="v-pills-participate" aria-selected="false">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives</button>
+                                        <button class="nav-lin rounded-3  mt-2 list-unstyled px-5 py-3 fs-6 custom-list" id="v-pills-share-tab" data-bs-toggle="pill" data-bs-target="#v-pills-share" type="button" role="tab" aria-controls="v-pills-share" aria-selected="false">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</button>
+                                      </div>
+                                   
                                 </div>
-                               
-                              </div>
+                            </div>
+                            <div class="col-xl-6  offset-xl-1 align-self-xl-center col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0 align-self-md-center align-self-lg-center position-relative">
+                                <div class="ellipse ">
+                                    <div class="tab-content" id="v-pills-tabContent">
+                                        <div class="tab-pane fade show active" id="v-pills-download" role="tabpanel" aria-labelledby="v-pills-download-tab" tabindex="0">
+                                            <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/1.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-locate" role="tabpanel" aria-labelledby="v-pills-locate-tab" tabindex="0">
+                                        <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/2.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
+                                        </div>
+                                        <div class="tab-pane fade" id="v-pills-scan" role="tabpanel" aria-labelledby="v-pills-scan-tab" tabindex="0">
+                                            <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/3.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
+                                        </div>
+                                      <div class="tab-pane fade" id="v-pills-connect" role="tabpanel" aria-labelledby="v-pills-connect-tab" tabindex="0">
+                                        <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/4.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
+                                      </div>
+                                      <div class="tab-pane fade" id="v-pills-shop" role="tabpanel" aria-labelledby="v-pills-shop-tab" tabindex="0">
+                                        <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/5.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
+                                      </div>
+                                      <div class="tab-pane fade" id="v-pills-participate" role="tabpanel" aria-labelledby="v-pills-participate-tab" tabindex="0">
+                                        <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/6.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
+                                      </div>
+                                      <div class="tab-pane fade" id="v-pills-share" role="tabpanel" aria-labelledby="v-pills-share-tab" tabindex="0">
+                                        <a href="#"><img src="./assets/images/how-shopper-work/for-shoppers/7.png" alt="" class="shoppers ms-md-4 mt-md-1 ms-lg-1  "></a>
+                                      </div>
+                                    </div>
+                                    <div class="get-app d-flex justify-content-center ms-md-5">
+                                        <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
+                                        <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2 store"></div>
+                                    </div>
+                                    <div class="">
+                                        <div class="circle-left position-absolute">
+                                            <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-dark py-1"></i></span>
+                                        </div>
+                                        <div class="circle-right position-absolute">
+                                            <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-white py-1"></i></span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
                         </div>
-                        <div class="col-xl-6 offset-xl-1 col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0 position-relative">
-                            <div class="ellipse ">
-                           
-                           
-                                <div class="tab-content " id="v-pills-tabContent">
-                                    <div class="tab-pane fade show active" id="v-pills-register" role="tabpanel" aria-labelledby="v-pills-register-tab">
-                                        <img src="./assets/images/how-shopper-work/for-malls-and-stores/1.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-orders" role="tabpanel" aria-labelledby="v-pills-orders-tab">
-                                        <img src="./assets/images/how-shopper-work/for-malls-and-stores/2.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-scanbarcode" role="tabpanel" aria-labelledby="v-pills-scanbarcode-tab">
-                                        <img src="./assets/images/how-shopper-work/for-malls-and-stores/3.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-manage" role="tabpanel" aria-labelledby="v-pills-manage-tab">
-                                        <img src="./assets/images/how-shopper-work/for-malls-and-stores/4.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
+                        <div class="row">
+                            <div class=" col-10 offset-1  col-sm-9 offset-sm-2  col-md-9 offset-md-2 col-lg-10 offset-lg-1 col-xl-9 offset-xl-2">
+                                <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Download ShoppersBag App to Start Earning Rewards</button>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade show" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                        <!-- for malls and stores -->
+                        <div id="shoppers" class="my-5 users-category-detail showing"> 
+                            <div class="row d-xl-flex mt-xl-5">
+                                
+                                <div class="col-xl-5   col-sm-10 offset-sm-1 col-md-6  offset-md-0 col-lg-5 col-10 offset-1 mt-xl-5">
+                                    <div class="d-flex align-items-start">
+                                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3 active" id="v-pills-register-tab" data-bs-toggle="pill" data-bs-target="#v-pills-register" type="button" role="tab" aria-controls="v-pills-register" aria-selected="true">Register on ShoppersBag as a Reseller Outlet </button>
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-orders-tab" data-bs-toggle="pill" data-bs-target="#v-pills-orders" type="button" role="tab" aria-controls="v-pills-orders" aria-selected="false">Make Orders for ShoppersBag on App</button>
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-scanbarcode-tab" data-bs-toggle="pill" data-bs-target="#v-pills-scanbarcode" type="button" role="tab" aria-controls="v-pills-scanbarcode" aria-selected="false">Scan 2D barcode to verify ShoppersBag usage in-store</button>
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-manage-tab" data-bs-toggle="pill" data-bs-target="#v-pills-manage" type="button" role="tab" aria-controls="v-pills-manage" aria-selected="false">Manage eco-conscious customer’s loyalty and rewards program</button>
+                                          </div>
+                                       
                                     </div>
                                 </div>
-                                <div class="get-app d-flex justify-content-center ms-md-5">
-                                    <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
-                                    <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2  store"></div>
+                                <div class="col-xl-6  offset-xl-1 align-self-xl-center col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0 align-self-md-center align-self-lg-center position-relative">
+                                    <div class="ellipse ">
+                                        <div class="tab-content " id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-register" role="tabpanel" aria-labelledby="v-pills-register-tab">
+                                                <img src="./assets/images/how-shopper-work/for-malls-and-stores/1.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-orders" role="tabpanel" aria-labelledby="v-pills-orders-tab">
+                                                <img src="./assets/images/how-shopper-work/for-malls-and-stores/2.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-scanbarcode" role="tabpanel" aria-labelledby="v-pills-scanbarcode-tab">
+                                                <img src="./assets/images/how-shopper-work/for-malls-and-stores/3.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-manage" role="tabpanel" aria-labelledby="v-pills-manage-tab">
+                                                <img src="./assets/images/how-shopper-work/for-malls-and-stores/4.png" alt="" class="shoppers ms-lg-5 mt-xl-3 ms-xl-0">
+                                            </div>
+                                        </div>
+                                        <div class="get-app d-flex justify-content-center ms-md-5">
+                                            <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
+                                            <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2  store"></div>
+                                        </div>
+                                        <div class="circle-group">
+                                            <div class="circle-left position-absolute">
+                                                <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4  mt-md-4 px-md-4 text-dark py-xl-1"></i></span>
+                                            </div>
+                                            <div class="circle-right position-absolute">
+                                                <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4  mt-md-4 px-md-4 text-white py-xl-1"></i></span>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="circle-group">
-                                    <div class="circle-left position-absolute">
-                                        <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4  mt-md-4 px-md-4 text-dark py-xl-1"></i></span>
-                                    </div>
-                                    <div class="circle-right position-absolute">
-                                        <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4  mt-md-4 px-md-4 text-white py-xl-1"></i></span>
-                                    </div>
-                                    
+                                
+                            </div>
+                            <div class="row">
+                                <div class="  col-10 offset-1  col-lg-10 offset-lg-1 col-sm-9 offset-sm- col-md-9 offset-md-2 col-xl-9 offset-xl-2 ">
+                                    <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Register to Become A Reseller </button>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    <div class="row">
-                        <div class="  col-10 offset-1  col-lg-10 offset-lg-1 col-sm-9 offset-sm- col-md-9 offset-md-2 col-xl-9 offset-xl-2 ">
-                            <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Register to Become A Reseller </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- For Eco-friendly Bag Producers  -->
-                <div id="ecoFriendly" class="users-category-detail">
-                    <p class="text-xl-center  text-lg-center text-md-center text-center my-3  w-xl-75 w-sm-75 mx-xl-auto mt-xl-4 fs-4">Use ShoppersBag Distribution System to meet eco-friendly bag demands for customers</p>
-                    <div class="row d-xl-flex mt-xl-5">
-                        
-                        <div class="col-xl-5 align-self-xl-center col-md-6 offset-md-0 col-lg-5 col-10 offset-1">
-                            <div class="d-flex align-items-start">
-                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3 active" id="v-pills-partner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-partner" type="button" role="tab" aria-controls="v-pills-partner" aria-selected="true">Partner with ShoppersBag as an Eco-friendly Bag Producer </button>
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-access-tab" data-bs-toggle="pill" data-bs-target="#v-pills-access" type="button" role="tab" aria-controls="v-pills-access" aria-selected="false">Access to Receive ShoppersBag Supply Order from Brands, Malls & Stores for Distribution </button>
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-Integrates-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Integrates" type="button" role="tab" aria-controls="v-pills-Integrates" aria-selected="false">Integrates eco-friendly and reusable shopping bags to ShoppersBag Distribution system</button>
-                                 
+                    <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                        <!-- For Eco-friendly Bag Producers  -->
+                        <div id="shoppers" class="my-5 users-category-detail showing"> 
+                            <div class="row d-xl-flex mt-xl-5">
+                                
+                                <div class="col-xl-5   col-sm-10 offset-sm-1 col-md-6  offset-md-0 col-lg-5 col-10 offset-1 mt-5">
+                                    <div class="d-flex align-items-start">
+                                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3 active" id="v-pills-partner-tab" data-bs-toggle="pill" data-bs-target="#v-pills-partner" type="button" role="tab" aria-controls="v-pills-partner" aria-selected="true">Partner with ShoppersBag as an Eco-friendly Bag Producer </button>
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-access-tab" data-bs-toggle="pill" data-bs-target="#v-pills-access" type="button" role="tab" aria-controls="v-pills-access" aria-selected="false">Access to Receive ShoppersBag Supply Order from Brands, Malls & Stores for Distribution </button>
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-Integrates-tab" data-bs-toggle="pill" data-bs-target="#v-pills-Integrates" type="button" role="tab" aria-controls="v-pills-Integrates" aria-selected="false">Integrates eco-friendly and reusable shopping bags to ShoppersBag Distribution system</button>
+                                           
+                                          </div>
+                                       
+                                    </div>
                                 </div>
-                               
-                              </div>
-                        </div>
-                        <div class="col-xl-6 offset-xl-1 col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0 position-relative">
-                            <div class="ellipse">
-                           
-                           
-                                <div class="tab-content " id="v-pills-tabContent">
-                                    <div class="tab-pane fade show active" id="v-pills-partner" role="tabpanel" aria-labelledby="v-pills-partner-tab">
-                                        <img src="./assets/images/how-shopper-work/for-eco-friendly-bag-producers_/1.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
+                                <div class="col-xl-6   align-self-xl-center col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0 align-self-md-center align-self-lg-center position-relative">
+                                    <div class="ellipse ">
+                                        <div class="tab-content " id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-partner" role="tabpanel" aria-labelledby="v-pills-partner-tab">
+                                                <img src="./assets/images/how-shopper-work/for-eco-friendly-bag-producers_/1.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-access" role="tabpanel" aria-labelledby="v-pills-access-tab">
+                                                <img src="./assets/images/how-shopper-work/for-eco-friendly-bag-producers_/2.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-Integrates" role="tabpanel" aria-labelledby="v-pills-Integrates-tab">
+                                                <img src="./assets/images/how-shopper-work/for-eco-friendly-bag-producers_/3.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="get-app d-flex justify-content-center ms-md-5">
+                                            <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
+                                            <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2  store"></div>
+                                        </div>
+                                        <div class="">
+                                            <div class="circle-left position-absolute">
+                                                <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-dark py-1"></i></span>
+                                            </div>
+                                            <div class="circle-right position-absolute">
+                                                <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-white py-1"></i></span>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
-                                    <div class="tab-pane fade" id="v-pills-access" role="tabpanel" aria-labelledby="v-pills-access-tab">
-                                        <img src="./assets/images/how-shopper-work/for-eco-friendly-bag-producers_/2.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-Integrates" role="tabpanel" aria-labelledby="v-pills-Integrates-tab">
-                                        <img src="./assets/images/how-shopper-work/for-eco-friendly-bag-producers_/3.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
-                                    </div>
-                                    
                                 </div>
-                                <div class="get-app d-flex justify-content-center ms-md-5">
-                                    <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
-                                    <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2  store"></div>
-                                </div>
-                                <div class="">
-                                    <div class="circle-left position-absolute">
-                                        <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-dark py-1"></i></span>
-                                    </div>
-                                    <div class="circle-right position-absolute">
-                                        <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-white py-1"></i></span>
-                                    </div>
-                                    
+                                
+                            </div>
+                            <div class="row">
+                                <div class="  col-10 offset-1  col-lg-10 offset-lg-1 col-sm-10 offset-sm-2 col-xl-9 offset-xl-2 col-md-9 offset-md-2">
+                                    <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Register To Receive your First Order</button>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    <div class="row">
-                        <div class="  col-10 offset-1  col-lg-10 offset-lg-1 col-sm-10 offset-sm-2 col-xl-9 offset-xl-2 col-md-9 offset-md-2">
-                            <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Register To Receive your First Order</button>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- For Brands -->
-                <div id="brands" class="users-category-detail">
-                    <p class="text-xl-center text-lg-center text-md-center text-center my-3 w-xl-75 mx-xl-auto mt-xl-4 fs-4 text-sm-center">Use ShoppersBag </p>
-                    <div class="row d-xl-flex mt-xl-5">
-                        
-                        <div class="col-xl-5 col-10 offset-1 col-md-6 offset-md-0 col-lg-5 align-self-xl-center">
-                            <div class="d-flex align-items-center">
-                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3 active" id="v-pills-sustain-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sustain" type="button" role="tab" aria-controls="v-pills-sustain" aria-selected="true">Partner with ShoppersBag to drive Sustainability in the Retail Value Chain  </button>
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-branded-tab" data-bs-toggle="pill" data-bs-target="#v-pills-branded" type="button" role="tab" aria-controls="v-pills-branded" aria-selected="false">Order for Branded Bags for Distribution to Staff and Customers  </button>
-                                  <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-campaign-tab" data-bs-toggle="pill" data-bs-target="#v-pills-campaign" type="button" role="tab" aria-controls="v-pills-campaign" aria-selected="false">Setup Campaign and Incentives to Drive ShoppersBag usage, and Encourage a Sustainability Lifestyle among your Staff and Customers 
-                                </button>
-                                 
+                    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                        <!-- For Brands -->
+                        <div id="shoppers" class="my-5 users-category-detail showing"> 
+                            <div class="row d-xl-flex mt-xl-5">
+                                
+                                <div class="col-xl-5   col-sm-10 offset-sm-1 col-md-6  offset-md-0 col-lg-5 col-10 offset-1 mt-5">
+                                    <div class="d-flex align-items-start">
+                                        <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3 active" id="v-pills-sustain-tab" data-bs-toggle="pill" data-bs-target="#v-pills-sustain" type="button" role="tab" aria-controls="v-pills-sustain" aria-selected="true">Partner with ShoppersBag to drive Sustainability in the Retail Value Chain  </button>
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-branded-tab" data-bs-toggle="pill" data-bs-target="#v-pills-branded" type="button" role="tab" aria-controls="v-pills-branded" aria-selected="false">Order for Branded Bags for Distribution to Staff and Customers  </button>
+                                            <button class="nav-lin custom-list px-5 py-3 fs-6 mt-2 rounded-3" id="v-pills-campaign-tab" data-bs-toggle="pill" data-bs-target="#v-pills-campaign" type="button" role="tab" aria-controls="v-pills-campaign" aria-selected="false">Setup Campaign and Incentives to Drive ShoppersBag usage, and Encourage a Sustainability Lifestyle among your Staff and Customers 
+                                            </button>
+                                           
+                                          </div>
+                                       
+                                    </div>
                                 </div>
-                               
-                              </div>
-                        </div>
-                        <div class="col-xl-6 offset-xl-1 col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0  position-relative">
-                            <div class="ellipse  ">
-                                <div class="tab-content " id="v-pills-tabContent">
-                                    <div class="tab-pane fade show active" id="v-pills-sustain" role="tabpanel" aria-labelledby="v-pills-sustain-tab">
-                                        <img src="./assets/images/how-shopper-work/for-brands/1.png" alt="" class="shoppers ms-md-5 ms-lg-1">
+                                <div class="col-xl-6   align-self-xl-center col-10 offset-1 col-lg-6 offset-lg-1 col-sm-12 col-md-5 offset-md-0 align-self-md-center align-self-lg-center position-relative">
+                                    <div class="ellipse ">
+                                        <div class="tab-content " id="v-pills-tabContent">
+                                            <div class="tab-pane fade show active" id="v-pills-sustain" role="tabpanel" aria-labelledby="v-pills-sustain-tab">
+                                                <img src="./assets/images/how-shopper-work/for-brands/1.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-branded" role="tabpanel" aria-labelledby="v-pills-branded-tab">
+                                                <img src="./assets/images/how-shopper-work/for-brands/2.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
+                                            </div>
+                                            <div class="tab-pane fade" id="v-pills-campaign" role="tabpanel" aria-labelledby="v-pills-campaign-tab">
+                                                <img src="./assets/images/how-shopper-work/for-brands/3.png" alt="" class="shoppers ms-md-4 ms-xl-0 mt-xl-3 ">
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="get-app d-flex justify-content-center ms-md-5">
+                                            <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
+                                            <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2  store"></div>
+                                        </div>
+                                        <div class="">
+                                            <div class="circle-left position-absolute">
+                                                <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-dark py-1"></i></span>
+                                            </div>
+                                            <div class="circle-right position-absolute">
+                                                <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-white py-1"></i></span>
+                                            </div>
+                                            
+                                        </div>
                                     </div>
-                                    <div class="tab-pane fade" id="v-pills-branded" role="tabpanel" aria-labelledby="v-pills-branded-tab">
-                                        <img src="./assets/images/how-shopper-work/for-brands/2.png" alt="" class="shoppers ms-md-5 ms-lg-1">
-                                    </div>
-                                    <div class="tab-pane fade" id="v-pills-campaign" role="tabpanel" aria-labelledby="v-pills-campaign-tab">
-                                        <img src="./assets/images/how-shopper-work/for-brands/3.png" alt="" class="shoppers ms-md-5 ms-lg-1">
-                                    </div>
-                                    
                                 </div>
-                                <div class="get-app d-flex justify-content-center ms-md-5">
-                                    <div class="div"><img src="./assets/images/downloap-app-store.png" alt="" class="store"></div>
-                                    <div class="div"><img src="./assets/images/download-play-store.png" alt="" class="ms-4 ms-md-0 ms-xl-2 store"></div>
-                                </div>
-                                <div class="">
-                                    <div class="circle-left position-absolute">
-                                        <span><i class="fa fa-arrow-left fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-dark py-1"></i></span>
-                                    </div>
-                                    <div class="circle-right position-absolute">
-                                        <span><i class="fa fa-arrow-right fs-4 mt-xl-4 px-xl-4 mt-md-4 px-md-4 text-white py-1"></i></span>
-                                    </div>
-                                    
+                                
+                            </div>
+                            <div class="row">
+                                <div class="  col-10 offset-1  col-lg-10 offset-lg-1 col-sm-10 offset-sm-2 col-xl-9 offset-xl-2 col-md-9 offset-md-2">
+                                    <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Register to Launch Reusable Shopping Bag Campaign</button>
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    <div class="row">
-                        <div class="  col-10 offset-1 col-lg-10 offset-lg-1 col-sm-9 offset-sm-2 col-xl-9 offset-xl-2 col-md-9 offset-md-2">
-                            <button class="btn btn-custom-1 rounded-pill text-white my-5 fw-semibold px-4 fs-6 py-3" >Register to Launch Reusable Shopping Bag Campaign </button>
-                        </div>
-                    </div>
-                </div>
+                    <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+                  </div>
+              
             </div>
                
             </section>
@@ -454,9 +458,7 @@
                         </div>
                     </div>
                     <div class="col-xl-6 offset-xl-1 col-10 offset-1 px-2 col-md-10  offset-md-1  col-lg-6 offset-lg-0 col-sm-12  offset-sm-0 mt-md-5 mt-sm-4 mt-lg-0">
-                        <!-- <div class="nav-list d-sm-flex justify-sm-content-evenly d-block">
-                            
-                        </div> -->
+                     
                         <div class="row">
 
                             <ul class="nav nav-pills  mb-3 " id="pills-tab" role="tablist">
@@ -743,39 +745,7 @@
             </div>
         </div>
     </footer>
-    <script>
-        const txts=document.querySelector(".animate-text").children,
-              txtsLen=txts.length;
-             
-          let index=0;
-         const textInTimer=3000,
-               textOutTimer=2800;
 
-        function animateText() {
-           for(let i=0; i<txtsLen; i++){
-             txts[i].classList.remove("text-in","text-out");  
-           }
-           txts[index].classList.add("text-in");
-
-           setTimeout(function(){
-               txts[index].classList.add("text-out");              
-           },textOutTimer)
-
-           setTimeout(function(){
-
-             if(index == txtsLen-1){
-                 index=0;
-               }
-              else{
-                  index++;
-                }
-               animateText();
-           },textInTimer); 
-        }
-        
-        window.onload=animateText;
-  
-</script>
 <script src="./assets/js/index.js"></script>
 </body>
 </html>
