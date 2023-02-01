@@ -1,5 +1,5 @@
 <footer class="px-5 md:px-20 py-16 space-y-16">
-   <section class="rounded-ten md:rounded-eighty flex flex-col lg:flex-row justify-between gap-5 items-center bg-brandBlue1x px-2 sm:px-5 md:px-16 py-6">
+   <section id="subscribe_wrap" class="rounded-ten md:rounded-eighty flex flex-col lg:flex-row justify-between gap-5 items-center bg-brandBlue1x px-2 sm:px-5 md:px-16 py-6">
       <div>
          <h1 class="font-avenirMedium text-center md:text-left  md:text-2xl text-black">Subscribe to our Newsletter</h1>
       </div>

@@ -9,7 +9,7 @@
       <link rel="shortcut icon" href="./assets/images/logos/logo-round.png" type="image/x-icon">
       <title>Shoppers Bag | Impact</title>
    </head>
-   <body class="box-border overflow-x-hidden bg-brandGray3x">
+   <body class="box-border overflow-x-hidden bg-brandGray3x" data-what-page='impact'>
       <?php include_once './widgets/header.php'; ?>
       <main class="overflow-x-hidden">
          <section class="px-5 sm:px-10 md:px-20 h-fit relative">

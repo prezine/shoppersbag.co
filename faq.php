@@ -9,7 +9,7 @@
       <link rel="shortcut icon" href="./assets/images/logos/logo-round.png" type="image/x-icon">
       <title>Shoppers Bag | FAQ</title>
    </head>
-   <body class="box-border bg-white">
+   <body class="box-border bg-white" data-what-page='faq'>
         <?php include_once './widgets/header.php'; ?>
         <main class="overflow-x-hidden">
             <section class="px-10 md:px-20 py-16 md:py-20 mx-auto w-full space-y-5 lg:w-seventyPercent" >
