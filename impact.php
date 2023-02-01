@@ -13,7 +13,7 @@
       <?php include_once './widgets/header.php'; ?>
       <main class="overflow-x-hidden">
          <section class="px-5 sm:px-10 md:px-20 h-fit relative">
-            <main class="relative mx-auto rounded-hundred bg-brandDarkGreen1x px-5 sm:px-fivePercent lg:px-24 py-32  h-fit flex flex-col gap-6">
+            <div class="relative mx-auto rounded-hundred bg-brandDarkGreen1x px-5 sm:px-fivePercent lg:px-24 py-32  h-fit flex flex-col gap-6">
                   <div class="space-y-6 px-5 sm:px-tenPercent">
                      <h1 class="font-milligramBold700 text-white text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
                         Working with <span class="shadow-text pr-2"> Women</span>               </h1>
@@ -24,7 +24,7 @@
                         The goal of HerFiber is to stimulate the participation of women in the circular economy to improve their livelihoods and promote environmental sustainability.
                      </p>
                      <div class="pb-10 font-moderat float-right font-normal flex flex-row items-start justify-end gap-2">
-                        <a href="#" class="w-eightyPercent sm:w-seventyPercent md:w-fiftyPercent  text-brandPurple1x text-sm sm:text-lg md:text-xl underline">Click here to download the complete details about our empowerment programs for Women.</a>
+                        <a href="https://drive.google.com/file/d/1_cAIkZe0ltH2xkiglz_raVt3z_3tmdcb/view?usp=sharing" download target='_blank' class="w-eightyPercent sm:w-seventyPercent md:w-fiftyPercent  text-brandPurple1x text-sm sm:text-lg md:text-xl underline">Click here to download the complete details about our empowerment programs for Women.</a>
                         <svg class="-rotate-45" width="24" height="24" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#845CA7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                               <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#845CA7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -58,7 +58,7 @@
                         The goal is to transform young bag makers to change makers who are passionate about the elimination of single-use plastics through production of Eco-friendly shopping bags.
                      </p>
                      <div class="pb-10 font-moderat float-right font-normal flex flex-row items-start justify-end gap-2">
-                        <a href="#" class="w-eightyPercent sm:w-seventyPercent md:w-fiftyPercent  text-brandRed1x text-sm sm:text-lg md:text-xl underline">Click here to download the complete details about our empowerment programs for Girls.</a>
+                        <a href="https://drive.google.com/file/d/1MH6Qt02OYQBZVy5enWzmd98hyspwJ8Mh/view?usp=sharing\" download target='_blank' class="w-eightyPercent sm:w-seventyPercent md:w-fiftyPercent  text-brandRed1x text-sm sm:text-lg md:text-xl underline">Click here to download the complete details about our empowerment programs for Girls.</a>
                         <svg class="-rotate-45" width="24" height="24" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#FF3A44" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                               <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#FF3A44" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -83,7 +83,7 @@
                   </div>
                   <img src="./assets/images/patterns/HeroSectionLeftShapes.61b72bd3 1.png" alt="spiral" class="absolute w-fortyPercent lg:w-thirtyPercent -left-28 sm:-left-40 top-80">
                   <img src="./assets/images/patterns/HeroSectionRightShapes.ec704eb7 1.png" alt="spiral" class="max-w-500px -bottom-tenPercent absolute -right-10 xl:-bottom-twelvePercent">
-            </main>
+            </div>
          </section>
          <section class="px-10 md:px-20 pt-20">
             <h1 class="font-moderat font-bold text-black text-2xl md:text-5xl">Narrative Building</h1>
@@ -193,7 +193,7 @@
                      <p class="font-avenirRegular text-black md:text-lg">
                         Naija Zero Plastic Challenge 2022 Report
                      </p>
-                     <a href="#" class="font-avenirHeavy text-black bg-brandYellow1x rounded-fifty text-2xl py-3 md:py-6 px-5 md:px-10 whitespace-nowrap" download>Download</a>
+                     <a href="https://drive.google.com/file/d/1qyluCt5O5G16C9NMqkoKo06EIopO0_0O/view?usp=sharing" download target="_blank" class="font-avenirHeavy text-black bg-brandYellow1x rounded-fifty text-2xl py-3 md:py-6 px-5 md:px-10 whitespace-nowrap" download>Download</a>
                   </div>
                   <div class="absolute w-full bg-brandYellow4x h-full rounded-fifty -left-2 -bottom-2"></div>
             </div>

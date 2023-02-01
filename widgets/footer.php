@@ -21,9 +21,9 @@
       </div>
       <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
          <h1 class="font-avenirHeavy text-3xl">Legals</h1>
-         <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Website T&Cs</a>
+         <a href="./termsandconditions" class="font-avenirRegular text-xl text-black hover:underline">Website T&Cs</a>
          <a href="#" class="font-avenirRegular text-xl text-black hover:underline">App Terms & Conditions</a>
-         <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Privacy policy</a>
+         <a href="./privacypolicy" class="font-avenirRegular text-xl text-black hover:underline">Privacy policy</a>
          <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Partner Charter</a>
       </div>
       <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
@@ -47,7 +47,7 @@
             <img src="./assets/images/icons/social/ant-design_instagram-filled.png" alt="instagram" class="w-6 h-6">
             </a>
          </div>
-         <p class="text-base text-black font-avenirRegular">For grievances, contact
+         <p class="text-base text-black font-avenirRegular">For enquiries, contact
             <a href="mailto:hello@shoppersbag.co" class="font-avenirRegular text-base text-brandPurple1x hover:underline">hello@shoppersbag.co</a>
          </p>
       </div>
