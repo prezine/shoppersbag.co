@@ -13,19 +13,19 @@
       <?php include_once './widgets/header.php'; ?>
       <main class="">
          <section class="px-5 sm:px-10 md:px-20 mb-40 h-fit relative">
-            <main class="relative rounded-hundred bg-brandDarkGreen1x px-10 lg:px-24 pt-32 lg:py-32  h-fit flex flex-col gap-6">
-                  <div class="space-y-6">
-                     <div class="text-4xl sm:text-5xl md:text-7xl container font-milligramBold700 space-y-2">
+            <main class="relative rounded-hundred bg-brandDarkGreen1x px-5 lg:px-24 pt-32 lg:py-32  h-fit flex flex-col gap-6">
+                  <div class="space-y-6 w-full">
+                     <div class="text-center min-w-full lg:text-left text-4xl sm:text-5xl md:text-7xl container font-milligramBold700 space-y-2">
                         <span class="text-white static first">Say yes to a <br/></span>
                         <span class="text-brandGreen1x underline" id="change_text">reusable</span>
                      </div>
-                     <p class="font-milligramRegular200 text-white text-xl md:text-3xl lg:w-sixtyPercent">shopping bags, enabled with digital technology</p>
-                     <div class="pt-10 flex flex-col md:flex-row items-center gap-10">
-                        <a href="#" class="font-avenirLight text-lg text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
-                        <a href="#" class="text-white text-lg font-moderat font-normal underline">Contact sales</a>
+                     <p class="font-milligramRegular200 text-white text-base text-center w-ninetyPercent mx-auto lg:mx-0 lg:text-left md:text-3xl lg:w-sixtyPercent lg:pr-20">shopping bags, enabled with digital technology</p>
+                     <div class="pt-10 pb-5 flex xs:flex-col flex-row items-center justify-center lg:justify-start lg:w-fit gap-4 sm:gap-10">
+                        <a href="#" class="font-avenirLight text-sm md:text-lg whitespace-nowrap text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
+                        <a href="#" class="text-white text-sm md:text-lg whitespace-nowrap font-moderat font-normal underline">Contact sales</a>
                      </div>
                   </div>
-                  <img src="./assets/images/hero-eco-girl.png" alt="hero eco girl" class="lg:absolute w-auto md:w-618 bottom-32 right-8">
+                  <img src="./assets/images/hero-img.jpg" alt="hero eco girl" class="lg:absolute w-ninetyPercent mx-auto md:w-500 lg:w-fortyPercent bottom-32 right-8">
             </main>
                <div class="absolute -bottom-60 sm:-bottom-20 md:-bottom-15 right-10 md:right-36 ">
                   <div class="relative h-fit w-fit flex flex-col">
@@ -34,7 +34,7 @@
                               <h1 class="font-milligramBold700 text-xl md:text-3xl text-center">Our Mission</h1>
                               <img loading="lazy" src="./assets/images/patterns/sun-rays.png" alt="sun-rays" class="w-6 h-6 absolute right-0 top-0">
                         </div>
-                        <p class="font-milligramLight300 text-brandGray1x text-sm md:text-sm">At ShoppersBag, we are on a mission to support shoppers maintain a sustainable shopping lifestyle, reduce the number of single-use plastic bags in circulation, and improve the livelihood of women and girls.</p>
+                        <p class="font-milligramLight300 text-brandBlack1x text-sm md:text-sm">At ShoppersBag, we are on a mission to support shoppers maintain a sustainable shopping lifestyle, reduce the number of single-use plastic bags in circulation, and improve the livelihood of women and girls.</p>
                      </div>
                      <div class="absolute w-full bg-brandYellow4x h-full rounded-fifty -left-3 -bottom-3"></div>
                   </div>
@@ -46,26 +46,12 @@
          <section class="pt-36 overflow-x-hidden h-fit px-10 md:px-20 space-y-20 md:space-y-32 pb-8 flex flex-col justify-center">
             <section class="relative py-5 h-fit flex flex-row flex-wrap items-start gap-10 lg:gap-5">
                   <div class="w-full sm:w-2/3 lg:w-twentyFivePercent space-y-4">
-                     <h1 class="font-moderat font-bold text-3xl text-brandDarkGreen2x">353 million</h1>
+                     <h1 class="font-moderat font-bold text-3xl text-brandDarkGreen2x">300 million</h1>
                      <p class="font-moderat font-normal text-brandGray2x text-md">tonnes of waste generated globally are plastics</p>
-                     <div class="font-moderat font-normal flex flex-row items-center gap-2">
-                        <a href="#" class="text-brandRed2x text-sm underline">See how they are generated</a>
-                        <svg class="-rotate-45" width="24" height="24" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#E75E79" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#E75E79" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                     </div>
                   </div>
                   <div class="w-full sm:w-2/3 lg:w-twentyFivePercent space-y-4">
-                     <h1 class="font-moderat font-bold text-3xl text-brandDarkGreen2x">32 million</h1>
+                     <h1 class="font-moderat font-bold text-3xl text-brandDarkGreen2x">50%</h1>
                      <p class="font-moderat font-normal text-brandGray2x text-md">tonnes of plastic waste generated in Nigeria can be reused</p>
-                     <div class="font-moderat font-normal flex flex-row items-center gap-2">
-                        <a href="#" class="text-brandPurple1x text-sm underline">Check how this works</a>
-                        <svg class="-rotate-45" width="24" height="24" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
-                              <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#845CA7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                              <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#845CA7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg>
-                     </div>
                   </div>
                   <div class="w-full sm:w-2/3 lg:w-twentyFivePercent space-y-4">
                      <h1 class="font-moderat font-bold text-3xl text-brandDarkGreen2x">100,000</h1>
@@ -378,39 +364,39 @@
                   <p class="w-ninetyFivePercent sm:w-full font-avenirLight text-base md:text-xl text-white">You earn rewards whenever you scan QR code to activate your shopping bag</p>
             </main>
          </section>
-         <section class="w-full grid grid-rows-2 px-2 md:px-20 divide-y divide-brandGray10x">
-            <div class=" grid grid-cols-3 w-full divide-x divide-brandGray10x">
-                  <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>1288</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>ShoppersBag in Circulation</h1>
+         <section class="w-full text-center grid grid-rows-2 auto-rows-fr auto-cols-fr px-2 md:px-20 divide-y divide-brandGray10x">
+            <div class=" grid grid-cols-3 w-full auto-cols-fr auto-rows-fr divide-x divide-brandGray10x">
+                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>6,500</h1>
+                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>ShoppersBag in Circulation</h1>
                   </div>
-                  <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>20</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Partnering Stores</h1>
+                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>20</h1>
+                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Partnering Stores</h1>
                   </div>
-                  <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>25</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Women and Girls Impacted</h1>
+                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>70</h1>
+                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Women and Girls Impacted</h1>
                   </div>
             </div>
-            <div class="grid grid-cols-3 w-full divide-x divide-brandGray10x">
-                  <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>0</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Single-use Plastic Reduction</h1>
+            <div class="grid grid-cols-3 w-full auto-cols-fr auto-rows-fr divide-x divide-brandGray10x">
+                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>1.6</h1>
+                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Single-use Plastic Reduction</h1>
                   </div>
-                  <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>7</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Eco-friendly Bag Producers</h1>
+                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>15</h1>
+                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Eco-friendly Bag Producers</h1>
                   </div>
-                  <div class="w-full px-2 sm:pl-5 py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-3xl md:text-6xl pb-tenPixel'>2</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-2xl'>Partnering Brands</h1>
+                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>11</h1>
+                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Partnering Brands</h1>
                   </div>
             </div>
          </section>

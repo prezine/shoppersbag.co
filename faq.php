@@ -119,7 +119,7 @@
                 </div>
                 <div class="space-y-2">
                     <h1 class="font-avenirHeavy text-center text-2xl sm:text-4xl">Still have questions?</h1>
-                    <p class="text-brandGray17x text-base sm:text-xl font-avenirRegular text-center">Can't find answers you're looking for? Please chat our friendly team</p>
+                    <p class="text-brandGray17x text-base sm:text-xl font-avenirRegular text-center">Can't find answers you're looking for? Chat with Rozie from ShoppersBag</p>
                 </div>
             </section>
         </main>
