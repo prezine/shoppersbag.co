@@ -1,6 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.{html,js}"],
+  content: [
+    "./*.{html,js,php}",
+  "./widgets/*.{html,js,php}",    
+],
   theme: {
     extend: {
       colors:{
@@ -242,6 +245,7 @@ module.exports = {
       minHeight: {
         '1/2': '50%',
         '160px': '10rem',
+        '200px': '12.5rem',
         '350': '21.875rem',
       },
       minWidth: {

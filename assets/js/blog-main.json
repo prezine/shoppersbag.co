@@ -17,7 +17,7 @@
                 "tag":  "Ads"
             }
         ],
-        "url": "#"
+        "url": "/readblog"
     },
     {
         "id": "2",
@@ -37,7 +37,7 @@
                 "tag":  "Ads"
             }
         ],
-        "url": "/blog-post.html"
+        "url": "/readblog"
     },
     {
         "id": "3",
@@ -45,7 +45,7 @@
         "blogShadowText":"Recycle",
         "author":"Issie",
         "readTime":"5 mins",
-        "snippet":"A cleaner earth is the incentive for this new project. Find out new ways to spruce your home and save the earth while you're at it.",
+        "snippet":"A cleaner earth is the incentive for this project. Find out new ways to spruce your home and save the earth while you're at it.",
         "tags":[
             {
                 "tag":  "DIY"
@@ -57,7 +57,7 @@
                 "tag":  "Ads"
             }
         ],
-        "url": "#"
+        "url": "/readblog"
     }
 ]
 

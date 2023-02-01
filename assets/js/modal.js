@@ -13,8 +13,12 @@ $('.modal-opener').each(function(){
             let about_snippet = opener.children('.about-snippet').html() 
             let about_img = opener.children('img').attr('src') 
             let about_linkedin = opener.children('.about-linkedin').html()
+            let name = about_person.split('-')[0]
+            let about_personality = opener.children('.about-personality').html()
             $('#about_person_modal').html(about_person)
             $('#about_snippet_modal').html(about_snippet)
+            $('#about_name_modal').html(name)
+            $('#about_personality_modal').html(about_personality)
             $('#about_img_modal').attr('src', about_img)
             $('#about_linkedin_modal').attr('href', about_linkedin)
         }
