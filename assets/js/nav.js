@@ -38,6 +38,6 @@ $(document).on('click',function(e){
 let pageBody = document.querySelector('body')
 let currentPage = pageBody.getAttribute('data-what-page')
 
-if(currentPage == 'impact' || currentPage == 'contact' || currentPage == 'blog' || currentPage == 'read-blog' ){
+if(currentPage == 'impact' || currentPage == 'faq' || currentPage == 'contact' || currentPage == 'blog' || currentPage == 'read-blog' ){
     document.getElementById('subscribe_wrap').style.display = 'none'
 }
