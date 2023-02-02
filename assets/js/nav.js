@@ -34,3 +34,10 @@ $(document).on('click',function(e){
        }, 250);
    }
 });
+
+let pageBody = document.querySelector('body')
+let currentPage = pageBody.getAttribute('data-what-page')
+
+if(currentPage == 'impact' || currentPage == 'faq' || currentPage == 'contact' || currentPage == 'blog' || currentPage == 'read-blog' ){
+    document.getElementById('subscribe_wrap').style.display = 'none'
+}

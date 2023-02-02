@@ -9,7 +9,7 @@
       <link rel="shortcut icon" href="./assets/images/logos/logo-round.png" type="image/x-icon">
       <title>Shoppers Bag | Contact Us</title>
    </head>
-   <body class="box-border overflow-x-hidden bg-brandGray24x">
+   <body class="box-border overflow-x-hidden bg-brandGray24x" data-what-page='contact'>
       <?php include_once './widgets/header.php'; ?>
       <main class="overflow-x-hidden">
          <section class="px-10 md:px-20 py-20 flex flex-col md:flex-row gap-20 md:gap-10">
