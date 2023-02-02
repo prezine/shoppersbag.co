@@ -21,8 +21,8 @@
                      </div>
                      <p class="font-milligramRegular200 text-white text-base text-center w-ninetyPercent mx-auto lg:mx-0 lg:text-left md:text-3xl lg:w-sixtyPercent lg:pr-20">shopping bags, enabled with digital technology</p>
                      <div class="pt-10 pb-5 flex xs:flex-col flex-row items-center justify-center lg:justify-start lg:w-fit gap-4 sm:gap-10">
-                        <a href="#" class="font-avenirLight text-sm md:text-lg whitespace-nowrap text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
-                        <a href="#" class="text-white text-sm md:text-lg whitespace-nowrap font-moderat font-normal underline">Contact sales</a>
+                        <a href="https://www.youtube.com/watch?v=825tVcsLE1I" class="font-avenirLight text-sm md:text-lg whitespace-nowrap text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
+                        <a href="./contact" class="text-white text-sm md:text-lg whitespace-nowrap font-moderat font-normal underline">Contact sales</a>
                      </div>
                   </div>
                   <img src="./assets/images/hero-img.jpg" alt="hero eco girl" class="lg:absolute w-ninetyPercent mx-auto md:w-500 lg:w-fortyPercent bottom-32 right-8">
@@ -34,7 +34,7 @@
                               <h1 class="font-milligramBold700 text-xl md:text-3xl text-center">Our Mission</h1>
                               <img loading="lazy" src="./assets/images/patterns/sun-rays.png" alt="sun-rays" class="w-6 h-6 absolute right-0 top-0">
                         </div>
-                        <p class="font-milligramLight300 text-brandBlack1x text-sm md:text-sm">At ShoppersBag, we are on a mission to support shoppers maintain a sustainable shopping lifestyle, reduce the number of single-use plastic bags in circulation, and improve the livelihood of women and girls.</p>
+                        <p class="font-milligramLight300 text-brandBlack text-sm md:text-sm">At ShoppersBag, we are on a mission to support shoppers maintain a sustainable shopping lifestyle, reduce the number of single-use plastic bags in circulation, and improve the livelihood of women and girls.</p>
                      </div>
                      <div class="absolute w-full bg-brandYellow4x h-full rounded-fifty -left-3 -bottom-3"></div>
                   </div>
@@ -59,7 +59,7 @@
                         shoppers using ShoppersBag App monthly can save 13 tonnes of single-use plastic from entering the planet
                      </p>
                      <div class="font-moderat font-normal flex flex-row items-center gap-2">
-                        <a href="#" class="text-brandGreen1x text-sm underline">Get the App</a>
+                        <a href="https://play.google.com/store/apps/details?id=co.shoppersbag.shoppersbag" class="text-brandGreen1x text-sm underline">Get the App</a>
                         <svg class="-rotate-45" width="24" height="24" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#009933" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                               <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#009933" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -307,7 +307,7 @@
                      <!-- environment section start -->
                      <section class="tab first:flex hidden w-full" id="environment">
                         <div class="bg-brandGray9x rounded-forty w-full space-y-3 pb-20">
-                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/earth.png" alt="earth" class="max-w-2xl w-eightyPercent mx-auto">
+                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/earth.png" alt="earth" class="max-w-2xl w-seventyPercent mx-auto">
                               <p class="text-center text-xl md:text-2xl font-avenirRegular px-5 md:px-20">
                                  Reducing single-use plastic waste and promoting an environment that is safe from plastic pollution
                               </p>
@@ -318,9 +318,9 @@
                      <!-- economic section start -->
                      <section class="tab first:flex hidden w-full" id="economic">
                         <div class="bg-brandPeach2x rounded-forty w-full space-y-3 pb-20">
-                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/cash-man.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
+                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/cash-man.png" alt="man and cash" class="max-w-2xl w-seventyPercent mx-auto">
                               <p class="text-center text-xl md:text-2xl font-avenirRegular px-5 md:px-20">
-                                 Improved livelihoods of women and girls through production of ShoppersBag, and participation in the circular economy                        </p>
+                                 Improved livelihoods of women and girls through production of ShoppersBag, and participation in the circular economy</p>
                         </div>
                      </section>
                      <!-- economic section end -->
@@ -328,18 +328,19 @@
                      <!-- social section start -->
                      <section class="tab first:flex hidden w-full" id="social">
                         <div class="bg-white rounded-forty w-full space-y-3 pb-20">
-                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/shopping-bag-discount.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
+                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/shopping-bag-discount.png" alt="man and cash" class="max-w-2xl w-seventyPercent mx-auto">
                               <p class="text-center text-xl md:text-2xl font-avenirRegular px-5 md:px-20">
-                                 Establishing incentive-based behavioral change for shoppers in reducing the consumption of single-use plastic                    </div>
+                                 Establishing incentive-based behavioral change for shoppers in reducing the consumption of single-use plastic</div>
                      </section>
                      <!-- social section end -->
 
                      <!-- tech_driven section start -->
                      <section class="tab first:flex hidden w-full" id="tech_driven">
                         <div class="bg-brandBlue4x rounded-forty w-full space-y-3 pb-20">
-                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/astronauts.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
+                              <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/astronauts.png" alt="man and cash" class="max-w-2xl w-seventyPercent mx-auto">
                               <p class="text-center text-xl md:text-2xl font-avenirRegular px-5 md:px-20">
-                                 Scalable with technology                    
+                                 Scalable with technology
+                              </p>
                         </div>
                      </section>
                      <!-- tech_driven section end -->
@@ -357,7 +358,7 @@
                      <a href="#" class="w-20 md:w-40">                
                         <img loading="lazy" src="./assets/images/icons/social/AppStore.png" alt="app store">
                      </a>
-                     <a href="#" class="w-20 md:w-40">                
+                     <a href="https://play.google.com/store/apps/details?id=co.shoppersbag.shoppersbag" class="w-20 md:w-40">                
                         <img loading="lazy" src="./assets/images/icons/social/GooglePlay-purple.png" alt="app store">
                      </a>
                   </div>

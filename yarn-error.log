@@ -1,0 +1,55 @@
+Arguments: 
+  /opt/homebrew/Cellar/node/18.2.0/bin/node /opt/homebrew/Cellar/yarn/1.22.18/libexec/bin/yarn.js install
+
+PATH: 
+  /opt/homebrew/opt/openjdk/bin:/usr/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/opt/homebrew/opt/openjdk/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/Users/tom/Developer/flutter/bin:/Users/tom/Developer/flutter/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.2.0
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:83:26)
+
+npm manifest: 
+  {
+    "name": "shoppers-bag",
+    "version": "1.0.0",
+    "description": "A growth engine for plastic reduction, reuse and recycling",
+    "main": "index.js",
+    "scripts": {
+      "test": "npm start run",
+      "dev": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/tailwind.css --watch"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Issiedoesit/shoppers-bag.git"
+    },
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Issiedoesit/shoppers-bag/issues"
+    },
+    "homepage": "https://github.com/Issiedoesit/shoppers-bag#readme",
+    "devDependencies": {
+      "autoprefixer": "^10.4.13",
+      "postcss": "^8.4.19",
+      "tailwindcss": "^3.2.4"
+    },
+    "dependencies": {
+      "jquery": "^3.6.1",
+      "velocity": "^0.7.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
