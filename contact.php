@@ -43,6 +43,9 @@
                   </p>
             </div>
          </section>
+            <?php 
+               include_once './widgets/waitlist.widget.php'
+            ?>
     
       </main>
       <?php include_once './widgets/footer.php'; ?>
