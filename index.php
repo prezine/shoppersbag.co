@@ -21,7 +21,7 @@
                      </div>
                      <p class="font-milligramRegular200 text-white text-base text-center w-ninetyPercent mx-auto lg:mx-0 lg:text-left md:text-3xl lg:w-sixtyPercent lg:pr-20">shopping bags, enabled with digital technology</p>
                      <div class="pt-10 pb-5 flex xs:flex-col flex-row items-center justify-center lg:justify-start lg:w-fit gap-4 sm:gap-10">
-                        <a href="https://www.youtube.com/watch?v=825tVcsLE1I" class="font-avenirLight text-sm md:text-lg whitespace-nowrap text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
+                        <a href="https://www.youtube.com/watch?v=825tVcsLE1I" target="_blank" class="font-avenirLight text-sm md:text-lg whitespace-nowrap text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
                         <a href="./contact" class="text-white text-sm md:text-lg whitespace-nowrap font-moderat font-normal underline">Contact sales</a>
                      </div>
                   </div>
@@ -39,11 +39,11 @@
                      <div class="absolute w-full bg-brandYellow4x h-full rounded-fifty -left-3 -bottom-3"></div>
                   </div>
                </div>
-                  <!-- <div class="min-h-full min-w-full bg-red-500">
-                     <p>hi</p>
-                  </div> -->
+               <!-- <div class="min-h-full min-w-full bg-red-500">
+                  <p>hi</p>
+               </div> -->
          </section>
-         <section class="pt-36 overflow-x-hidden h-fit px-10 md:px-20 space-y-20 md:space-y-32 pb-8 flex flex-col justify-center">
+         <section class="pt-20 overflow-x-hidden h-fit px-10 md:px-20 space-y-20 md:space-y-32 pb-8 flex flex-col justify-center">
             <section class="relative py-5 h-fit flex flex-row flex-wrap items-start gap-10 lg:gap-5">
                   <div class="w-full sm:w-2/3 lg:w-twentyFivePercent space-y-4">
                      <h1 class="font-moderat font-bold text-3xl text-brandDarkGreen2x">300 million</h1>
@@ -67,12 +67,12 @@
                      </div>        
                   </div>
                   <div class="translate-x-20 sm:absolute -right-28 md:-right-20 top-2">
-                     <div class="flex flex-row items-center justify-center gap-3 w-60 sm:w-80 aspect-square rounded-fiftyPercent border border-brandGray26x">
+                     <a href="https://www.youtube.com/watch?v=825tVcsLE1I" target="_blank" class="flex flex-row items-center justify-center gap-3 w-60 sm:w-80 aspect-square rounded-fiftyPercent border border-brandGray26x">
                         <p class="font-avenirRegular text-brandPurple1x md:text-lg">Watch video</p>
                         <button type="button">                
                               <img src="./assets/images/icons/vuesax/play-cricle.svg" alt="play video" class="w-10 h-10">
                         </button>
-                     </div>
+                     </a>
                   </div>
             </section>
             <section class="mx-auto w-full space-y-8">
@@ -365,27 +365,28 @@
                   <p class="w-ninetyFivePercent sm:w-full font-avenirLight text-base md:text-xl text-white">You earn rewards whenever you scan QR code to activate your shopping bag</p>
             </main>
          </section>
+         <h1 class="font-milligramBold700 text-black text-3xl md:text-6xl text-center pb-10">KEY METRICS</h1>
          <section class="w-full text-center grid grid-rows-2 auto-rows-fr auto-cols-fr px-2 md:px-20 divide-y divide-brandGray10x">
             <div class=" grid grid-cols-3 w-full auto-cols-fr auto-rows-fr divide-x divide-brandGray10x">
-                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>6,500</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>ShoppersBag in Circulation</h1>
-                  </div>
-                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>20</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Partnering Stores</h1>
-                  </div>
-                  <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>70</h1>
-                     <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
-                     <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Women and Girls Impacted</h1>
-                  </div>
+               <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                  <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>6,500</h1>
+                  <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                  <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>ShoppersBag in Circulation</h1>
+               </div>
+               <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                  <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>20</h1>
+                  <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                  <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Partnering Stores</h1>
+               </div>
+               <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
+                  <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>70</h1>
+                  <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
+                  <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Women and Girls Impacted</h1>
+               </div>
             </div>
             <div class="grid grid-cols-3 w-full auto-cols-fr auto-rows-fr divide-x divide-brandGray10x">
                   <div class="w-full px-2 sm:pl-5 py-10 sm:py-20 space-y-2">
-                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>1.6</h1>
+                     <h1 class='font-avenirHeavy text-xl sm:text-2xl md:text-3xl lg:text-5xl pb-tenPixel text-center'>1.6 tons</h1>
                      <p class='font-avenirRegular text-sm sm:text-base md:text-xl lg:text-2xl'>Number of</p>
                      <h1 class='font-avenirHeavy text-sm sm:text-base md:text-xl lg:text-2xl'>Single-use Plastic Reduction</h1>
                   </div>

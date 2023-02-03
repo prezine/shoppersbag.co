@@ -15,16 +15,17 @@
          <section class="px-5 sm:px-10 md:px-20 h-fit relative">
             <div class="relative mx-auto rounded-hundred bg-brandDarkGreen1x px-5 sm:px-fivePercent lg:px-24 py-32  h-fit flex flex-col gap-6">
                   <div class="space-y-6 px-5 sm:px-tenPercent">
-                     <h1 class="font-milligramBold700 text-white text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
-                        Working with <span class="shadow-text pr-2"> Women</span>               </h1>
-                     <p class="font-moderat font-normal text-white text-lg sm:text-2xl lg:text-3xl">
+                     <h1 class="font-milligramBold700 text-white text-3xl sm:text-4xl md:text-3xl lg:text-5xl">
+                        Working with <span class="shadow-text pr-2"> Women</span>               
+                     </h1>
+                     <p class="font-moderat font-light text-white text-lg sm:text-xl lg:text-2xl">
                         HerFiber project is tailored to train and support women groups in banana and plantain growing communities, integrate them into clusters to extract fiber from banana and plantain stems to yarn, weaving into fabric for eco-friendly packaging bag production.
                      </p>
-                     <p class="font-moderat font-normal text-white text-lg sm:text-2xl lg:text-3xl">
+                     <p class="font-moderat font-light text-white text-lg sm:text-xl lg:text-2xl">
                         The goal of HerFiber is to stimulate the participation of women in the circular economy to improve their livelihoods and promote environmental sustainability.
                      </p>
                      <div class="pb-10 font-moderat float-right font-normal flex flex-row items-start justify-end gap-2">
-                        <a href="https://drive.google.com/file/d/1_cAIkZe0ltH2xkiglz_raVt3z_3tmdcb/view?usp=sharing" download target='_blank' class="w-eightyPercent sm:w-seventyPercent md:w-fiftyPercent  text-brandPurple1x text-sm sm:text-lg md:text-xl underline">Click here to download the complete details about our empowerment programs for Women.</a>
+                        <a href="https://drive.google.com/file/d/1_cAIkZe0ltH2xkiglz_raVt3z_3tmdcb/view?usp=sharing" download target='_blank' class="w-eightyPercent sm:w-seventyPercent md:w-fiftyPercent text-brandPurple1x text-sm sm:text-lg md:text-xl underline">Click here to download the complete details about our empowerment programs for Women.</a>
                         <svg class="-rotate-45" width="24" height="24" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
                               <path d="M23.3981 9.7627L33.1354 19.5L23.3981 29.2373" stroke="#845CA7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
                               <path opacity="0.4" d="M5.86459 19.5H32.8627" stroke="#845CA7" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
@@ -48,13 +49,13 @@
                      </div>
                   </div>
                   <div class="space-y-6 px-tenPercent">
-                     <h1 class="font-milligramBold700 text-white text-3xl sm:text-4xl md:text-5xl lg:text-7xl">
+                     <h1 class="font-milligramBold700 text-white text-3xl sm:text-4xl md:text-3xl lg:text-5xl">
                         Working with <span class="shadow-text pr-2"> Girls</span>
                      </h1>
-                     <p class="font-moderat font-normal text-white text-lg sm:text-2xl lg:text-3xl">
+                     <p class="font-moderat font-light text-white text-lg sm:text-xl lg:text-2xl">
                         Eco-Girls support scheme is designed to train, equip and empower girls with practical bag design and making skills using recyclable and biodegradable materials. 
                      </p>
-                     <p class="font-moderat font-normal text-white text-lg sm:text-2xl lg:text-3xl">
+                     <p class="font-moderat font-light text-white text-lg sm:text-xl lg:text-2xl">
                         The goal is to transform young bag makers to change makers who are passionate about the elimination of single-use plastics through production of Eco-friendly shopping bags.
                      </p>
                      <div class="pb-10 font-moderat float-right font-normal flex flex-row items-start justify-end gap-2">

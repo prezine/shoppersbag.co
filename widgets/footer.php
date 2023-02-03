@@ -21,8 +21,7 @@
       </div>
       <div class="flex flex-col space-y-2 col-span-1 px-4 w-full lg:w-full pt-10 lg:pt-0">
          <h1 class="font-avenirHeavy text-lg sm:text-xl md:text-2xl lg:text-2xl">Legals</h1>
-         <a href="./termsandconditions" class="font-avenirRegular  text-black hover:underline text-base">Website T&Cs</a>
-         <a href="#" class="font-avenirRegular  text-black hover:underline text-base">App Terms & Conditions</a>
+         <a href="./termsandconditions" class="font-avenirRegular  text-black hover:underline text-base">Terms & Conditions</a>
          <a href="./privacypolicy" class="font-avenirRegular  text-black hover:underline text-base">Privacy policy</a>
          <a href="#" class="font-avenirRegular  text-black hover:underline text-base">Partner Charter</a>
       </div>
@@ -50,6 +49,7 @@
          <p class="text-base text-black font-avenirRegular">For enquiries, contact
             <a href="mailto:hello@shoppersbag.co" class="font-avenirRegular break-words text-base text-brandPurple1x hover:underline">hello@shoppersbag.co</a>
          </p>
+         <p class="font-avenirRegular break-words text-base text-black">&copy; Copyright <?php echo date("Y") ?>. All rights reserved</p>
       </div>
    </section>
 </footer>

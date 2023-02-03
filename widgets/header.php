@@ -8,12 +8,12 @@
                     <a href="./about" title="About Us" class="whitespace-nowrap">About us</a>
                     <a href="./faq" title="FAQs" class="whitespace-nowrap">FAQ</a>
                     <a href="./impact" title="Impact" class="whitespace-nowrap">Impact</a>
-                    <a href="./blog" title="Blog" class="whitespace-nowrap">Blog</a>
+                    <!-- <a href="./blog" title="Blog" class="whitespace-nowrap">Blog</a> -->
                     <a href="./contact" title="Contacct Us" class="whitespace-nowrap">Contact Us</a>
                 </div>
                 <div class="flex w-full lg:w-fit justify-center flex-col lg:flex-row items-center gap-7 font-avenirHeavy ">
-                    <a href="#" title="Log In" class="whitespace-nowrap text-brandRed1x underline">Log In</a>
-                    <a href="#" title="Join as a Business" class="whitespace-nowrap bg-brandDarkGreen2x py-3 px-5 rounded-forty text-white text-center">Join as a business</a>
+                    <a href="./waitlist" title="Log In" class="whitespace-nowrap text-brandRed1x underline">Log In</a>
+                    <a href="./waitlist" title="Join as a Business" class="whitespace-nowrap bg-brandDarkGreen2x py-3 px-5 rounded-forty text-white text-center">Join as a business</a>
                 </div>
             </div>
             <div id="hamburger" class="md:block lg:hidden space-y-1">
