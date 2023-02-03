@@ -993,6 +993,10 @@ video {
   width: 13rem;
 }
 
+.w-auto {
+  width: auto;
+}
+
 .min-w-full {
   min-width: 100%;
 }
@@ -2598,6 +2602,10 @@ video {
 
   .md\:w-40 {
     width: 10rem;
+  }
+
+  .md\:w-618 {
+    width: 38.625rem;
   }
 
   .md\:max-w-xl {
