@@ -49,7 +49,7 @@
             </label>
         </div>
         <div class="flex justify-end">
-            <button class="bg-brandGreen4x w-fit rounded-fifty py-2 md:py-4 px-10 text-white text-lg sm:text-xl hover:scale-90 hover:shadow-sm transition-all duration-500 ease-in-out">Submit Application</button>
+            <button class="bg-brandGreen4x w-fit rounded-fifty py-2 md:py-4 px-5 sm:px-10 text-white text-sm sm:text-lg md:text-xl hover:scale-90 hover:shadow-sm transition-all duration-500 ease-in-out">Submit Application</button>
         </div>
     </form>
 </section>
