@@ -43,7 +43,7 @@
                   </p>
             </div>
          </section>
-         <section class="pt-20">
+         <section class="pt-20 font-avenirRegular">
             <form action="" method="post" class="rounded-fifty bg-brandPeach3x text-sm md:text-base w-ninetyPercent max-w-lg lg:w-sixtyPercent lg:max-w-2xl px-5 sm:px-10 md:px-20 py-10 mx-auto space-y-5 sm:space-y-8 md:space-y-10">
                <h1 class="font-avenirHeavy text-center text-2xl lg:text-3xl">Contact Shoppers Bag</h1>
                <div>
