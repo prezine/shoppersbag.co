@@ -9,7 +9,7 @@
       <link rel="shortcut icon" href="./assets/images/logos/logo-round.png" type="image/x-icon">
       <title>Shoppers Bag | Waitlist</title>
    </head>
-   <body class="box-border overflow-x-hidden bg-brandGray3x" data-what-page='impact'>
+   <body class="box-border overflow-x-hidden bg-brandGray3x font-avenirRegular" data-what-page='impact'>
       <?php 
       include_once './widgets/header.php';
       ?>
