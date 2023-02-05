@@ -56,7 +56,7 @@
                   <div class="w-full sm:w-2/3 lg:w-twentyFivePercent space-y-4">
                      <h1 class="font-moderat font-bold text-3xl text-brandDarkGreen2x">100,000</h1>
                      <p class="font-moderat font-normal text-brandGray2x text-md">
-                        shoppers using ShoppersBag App monthly can save 13 tonnes of single-use plastic from entering the planet
+                        shoppers using ShoppersBag App annually can save 38.4 tonnes of single-use plastic from entering the planet
                      </p>
                      <div class="font-moderat font-normal flex flex-row items-center gap-2">
                         <a href="https://play.google.com/store/apps/details?id=co.shoppersbag.shoppersbag" class="text-brandGreen1x text-sm underline">Get the App</a>
