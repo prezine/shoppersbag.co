@@ -25,8 +25,8 @@
                         <a href="./contact" class="text-white text-sm md:text-lg whitespace-nowrap font-moderat font-normal underline">Contact sales</a>
                      </div>
                   </div>
-                  <img src="./assets/images/hero-img.jpg" alt="hero eco girl" class="lg:absolute w-ninetyPercent mx-auto md:w-500 lg:w-fortyPercent bottom-32 right-8">
-            </main>
+                  <img src="./assets/images/hero-eco-girl.png" alt="hero eco girl" class="lg:absolute w-auto md:w-618 bottom-32 right-8">               
+               </main>
                <div class="absolute -bottom-60 sm:-bottom-20 md:-bottom-15 right-10 md:right-36 ">
                   <div class="relative h-fit w-fit flex flex-col">
                      <div class="relative z-30 px-6 shadow-lg py-9 bg-brandPeach1x rounded-fifty w-60 sm:w-350 md:w-410 space-y-4">
