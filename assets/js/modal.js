@@ -10,7 +10,7 @@ function storeCurrentTime() {
 function onYouTubeIframeAPIReady() {
   player = new YT.Player('iframe_video', {
     height: '315',
-    width: '560',
+    width: '100%',
     videoId: '825tVcsLE1I',
     events: {
       'onReady': onPlayerReady,
