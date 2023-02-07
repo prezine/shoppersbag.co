@@ -39,3 +39,8 @@
     background-color: #41a4e6;
     transition: 10ms ease-in-out;
 }
+
+.marketing-thumbnail{
+    background: url('./../images/shoppersbag-thumbnail.png');
+    background-size: contain;
+}

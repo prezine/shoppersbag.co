@@ -66,14 +66,14 @@
                         </svg>
                      </div>        
                   </div>
-                  <button type="button" data-modal="youtube_modal" class="modal-opener translate-x-20 sm:absolute -right-11 md:-right-20 top-2">
+                  <div data-modal="youtube_modal" class="modal-opener translate-x-20 sm:absolute -right-11 md:-right-20 top-2 marketing-thumbnail cursor-pointer">
                      <div class="flex flex-row items-center justify-center gap-3 w-60 sm:w-80 aspect-square rounded-fiftyPercent border border-brandGray26x">
                         <p class="font-avenirRegular text-brandPurple1x md:text-lg">Watch video</p>
                         <div>                
                               <img src="./assets/images/icons/vuesax/play-cricle.svg" alt="play video" class="w-10 h-10">
                         </div>
                      </div>
-                  </button>
+                  </div>
                   <?php include_once './widgets/youtubeModal.php'; ?>
             </section>
             <section class="mx-auto w-full space-y-8">
