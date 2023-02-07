@@ -14,20 +14,20 @@ function onYouTubeIframeAPIReady() {
     videoId: '825tVcsLE1I',
     events: {
       'onReady': onPlayerReady,
-      'onStateChange': onPlayerStateChange
+    //   'onStateChange': onPlayerStateChange
     }
   });
 }
 
 function onPlayerReady() {
-    player.playVideo();
+    player.pauseVideo();
 }
   
-  function onPlayerStateChange(event) {
-    if (event.data === YT.PlayerState.PLAYING) {
-      console.log("Video is playing");
-    }
-  }
+//   function onPlayerStateChange(event) {
+//     if (event.data === YT.PlayerState.PLAYING) {
+//       console.log("Video is playing");
+//     }
+//   }
 
 $('.modal-closer').each(function() {
     $(this).on('click', function() {
