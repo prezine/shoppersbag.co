@@ -421,5 +421,6 @@
     <script src="./assets/js/nav.js"></script>
     <script src="./assets/js/text.js"></script>
     <script src="./assets/js/modal.js"></script>
+    <script async src="https://www.youtube.com/iframe_api"></script>
    </body>
 </html>
