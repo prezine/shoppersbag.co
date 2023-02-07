@@ -3,7 +3,7 @@
             <div class="h-fit w-fiftyPercent lg:w-thirtyPercent">
                 <a href="./index" title="Home"><img src="./assets/images/logos/logo.png" alt="logo" class="h-auto w-52 lg:w-48"></a>
             </div>
-            <div id="nav_menu" class="lg:bg-transparent space-y-10 lg:space-y-0 z-50 py-20 lg:py-0 -right-hundredPercent transition-all duration-500 ease-in-out shadow-md lg:shadow-none lg:static -bottom-560 absolute hidden w-full flex-col lg:flex lg:flex-row gap-10 lg:gap-7 xl:gap-10 justify-between items-center lg:w-seventyPercent">
+            <div id="nav_menu" class="lg:bg-transparent space-y-10 lg:space-y-0 z-50 py-20 lg:py-0 -right-hundredPercent transition-all duration-500 ease-in-out shadow-md lg:shadow-none lg:static top-20 absolute hidden w-full flex-col lg:flex lg:flex-row gap-10 lg:gap-7 xl:gap-10 justify-between items-center lg:w-seventyPercent">
                 <div class="font-avenirRegular flex flex-col lg:flex-row items-center gap-10 lg:gap-5 xl:gap-10">
                     <a href="./about" title="About Us" class="whitespace-nowrap">About us</a>
                     <a href="./faq" title="FAQs" class="whitespace-nowrap">FAQ</a>

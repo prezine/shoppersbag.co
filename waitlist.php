@@ -14,8 +14,8 @@
       include_once './widgets/header.php';
       ?>
       <section class="pb-20 md:pb-40 pt-10 md:pt-20 px-5 sm:px-10 md:px-20 h-fit">
-        <form action="" method="post" class="rounded-fifty bg-brandPeach3x text-sm md:text-base w-ninetyPercent max-w-lg lg:w-sixtyPercent lg:max-w-2xl px-5 sm:px-10 md:px-20 py-10 mx-auto space-y-5 sm:space-y-8 md:space-y-10">
-            <h1 class="font-avenirHeavy text-center text-2xl lg:text-3xl">Join ShoppersBag Waitlist</h1>
+        <form action="" method="post" class="rounded-fifty bg-brandDarkGreen1x text-sm md:text-base w-ninetyPercent max-w-lg lg:w-sixtyPercent lg:max-w-2xl px-5 sm:px-10 md:px-20 py-10 mx-auto space-y-5 sm:space-y-8 md:space-y-10">
+            <h1 class="font-avenirHeavy text-center text-2xl lg:text-3xl text-white">Join ShoppersBag Waitlist</h1>
             <div>
                 <label for="fullName" class="rounded-ten bg-white border-0.5 border-brandGray27x w-full text-brandGray28x flex flex-col px-5 md:px-8 gap-1 md:gap-2 py-2 md:py-4 focus-within:outline focus-within:outline-1 focus-within:outline-brandGreen2x">
                     Enter Your Name
