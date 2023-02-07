@@ -1,6 +1,41 @@
+var player;
+var currentTime;
+
+function storeCurrentTime() {
+    if (player) {
+      currentTime = player.getCurrentTime();
+    }
+}
+
+function onYouTubeIframeAPIReady() {
+  player = new YT.Player('iframe_video', {
+    height: '315',
+    width: '560',
+    videoId: '825tVcsLE1I',
+    events: {
+      'onReady': onPlayerReady,
+      'onStateChange': onPlayerStateChange
+    }
+  });
+}
+
+function onPlayerReady() {
+    player.playVideo();
+}
+  
+  function onPlayerStateChange(event) {
+    if (event.data === YT.PlayerState.PLAYING) {
+      console.log("Video is playing");
+    }
+  }
+
 $('.modal-closer').each(function() {
     $(this).on('click', function() {
        let closer = $(this)
+       if(closer.attr('data-modal-close') == 'youtube_modal'){
+            storeCurrentTime()
+            player.pauseVideo()
+        }
        closeModal(closer)
     })
 })
@@ -21,6 +56,11 @@ $('.modal-opener').each(function(){
             $('#about_personality_modal').html(about_personality)
             $('#about_img_modal').attr('src', about_img)
             $('#about_linkedin_modal').attr('href', about_linkedin)
+        }else if(opener.attr('data-modal') == 'youtube_modal'){
+            if(currentTime > 0){
+                player.seekTo(currentTime)
+                player.pauseVideo()
+            }
         }
         openModal(opener)
     })
@@ -51,3 +91,6 @@ function closeModal(closer){
     $('#' + current_modal).removeClass('flex')
     $('#' + current_modal).addClass('hidden')
 }
+
+
+
